@@ -1,4 +1,4 @@
-# CRs and SRs on Structure - GPCR Conservation Analysis
+# CRs and SRs on Structure - GPCR Conservation Analysis - Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling
 
 This directory contains structural visualizations and analysis files for Common Residues (CRs) and Selective Residues (SRs) across different GPCR classes, supporting the manuscript "Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling".
 

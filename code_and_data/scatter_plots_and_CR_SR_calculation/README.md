@@ -1,6 +1,6 @@
-# Scatter Plots and CR/SR Calculation
+# Scatter Plots and CR/SR Calculation - Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling
 
-This directory contains scripts and data files for generating scatter plots and calculating Common Residues (CRs) and Selective Residues (SRs) across GPCR classes.
+This directory contains scripts and data files for generating scatter plots and calculating Common Residues (CRs) and Selective Residues (SRs) across GPCR classes, supporting the manuscript "Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling".
 
 ## File Organization
 

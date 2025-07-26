@@ -4,7 +4,7 @@ This directory contains supplementary information for the manuscript "Decoding F
 
 ## Directory Structure
 
-```
+```text
 Supplementary Information/
 ├── README.md                           # This file
 ├── Supplementary_Table.xlsx            # Comprehensive data table with all annotations
@@ -14,7 +14,7 @@ Supplementary Information/
 │   ├── Figure3.png                    # Class B1 and B2 analysis
 │   ├── Figure4.png                    # Class F analysis
 │   ├── Figure5.png                    # Class C analysis
-│   └── Figure6.png                    # Subtype-specific SRs model
+│   └── Figure6.png                    # Subtype-specific selective residues in ligand and transducer selectivity
 └── code_and_data/                     # Computational analysis files
     ├── ortholog_pipeline/             # Ortholog identification pipeline
     ├── CRs_and_SRs_on_structure/     # Structural visualizations
@@ -30,7 +30,7 @@ Supplementary Information/
 - **Initial Annotations**: Detailed functional annotations assigned during analysis
 - **Simplified Annotations**: Streamlined functional categories for visualization
 - **CR/SR Information**: Classification of residues as Common (CR) or Selective (SR)
-- **Class-Specific Data**: Separate sheets for each GPCR family (Classes A, B1, B2, C, F, T, and Olfactory Receptors)
+- **Class-Specific Data**: Separate sheets for each GPCR class (A, B1, B2, C, F, T, Olfactory)
 
 ### Simplified Annotation Categories
 - **Ligand**: Residues involved in ligand binding
@@ -41,7 +41,7 @@ Supplementary Information/
 - **ICL2**: Intracellular loop 2 residues (Class T specific)
 - **Tethered Agonist**: Residues involved in tethered agonist binding (Class B2)
 - **VFT Ligand**: Venus Flytrap domain ligand binding residues (Class C)
-- **Allosteric Modulator**: Residues involved in allosteric modulation (Class C)
+- **Allosteric Modulator**: Residues involved in allosteric modulation
 - **WNT Binding**: Residues involved in WNT protein binding (Class F)
 - **Other**: Residues without specific functional annotation
 
@@ -87,7 +87,7 @@ The **code_and_data/** directory contains all computational analysis files:
 - CR/SR calculation algorithms
 - Label files with simplified annotations
 - Special analysis for Class F GPCRs
-- Multiple sequence alignments used for receptor mapping and analysis
+- **Class alignments**: Multiple sequence alignments used for receptor mapping and analysis
 
 ## Usage
 
@@ -104,3 +104,44 @@ The **code_and_data/** directory contains all computational analysis files:
 1. Navigate to **code_and_data/** for computational scripts
 2. Follow README files in each subdirectory for specific instructions
 3. Use provided SLURM scripts for cluster execution
+
+## Alignment Strategy
+
+The analysis uses representative sequences ("reps") and multiple sequence alignments to determine receptor sets and mapping:
+
+### Representative Sequence Selection
+- CD-HIT clustering identifies representative sequences from ortholog sets
+- Top 5 largest clusters are selected as representatives
+- Representatives provide evolutionary diversity while reducing computational complexity
+
+### Alignment Process
+1. **Initial Alignment**: Representative sequences + human sequences aligned using MAFFT
+2. **Human Extraction**: Human sequences extracted from the alignment
+3. **Final Analysis**: Family-wide analysis performed on human-only alignments
+
+### Alignment Types
+- **Full alignments**: Complete receptor sequences with representatives
+- **Human-only alignments**: Extracted human sequences for family-wide analysis
+- **Domain-specific alignments**: Specific regions (VFT domain, CRD domain, etc.)
+
+### Impact of Alignment Choice
+Different alignments produce different outcomes:
+- **Receptor Set**: Different representative sequences change receptor composition
+- **Mapping**: Alignment positions determine residue numbering and conservation calculations
+- **Analysis Scope**: Domain-specific alignments focus on particular functional regions
+
+### Alignment Files
+The `class_alignments/` directory contains:
+- Standard alignments with representatives
+- Human-only extracted alignments
+- Domain-specific alignments for particular regions
+- Scripts for extracting human sequences from representative alignments
+
+## Data Availability
+
+All data and code are available at: https://github.com/CompGenomeLab/GPCR_Family_Divergence
+
+## Contact
+
+For questions or issues with the data or code, please contact:
+- **Ogün Adebali**: oadebali@sabanciuniv.edu

@@ -1,6 +1,6 @@
-# Class Alignments - GPCR Multiple Sequence Alignments
+# Class Alignments - GPCR Multiple Sequence Alignments - Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling
 
-This directory contains multiple sequence alignments (MSAs) for each GPCR class, used for family-wide conservation analysis and receptor mapping. These alignments are the foundation for identifying Common Residues (CRs) and Selective Residues (SRs) across GPCR families.
+This directory contains multiple sequence alignments (MSAs) for each GPCR class, used for family-wide conservation analysis and receptor mapping, supporting the manuscript "Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling". These alignments are the foundation for identifying Common Residues (CRs) and Selective Residues (SRs) across GPCR families.
 
 ## Alignment Generation Process
 

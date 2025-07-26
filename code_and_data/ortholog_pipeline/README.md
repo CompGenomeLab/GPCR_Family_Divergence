@@ -1,6 +1,6 @@
-# GPCR Ortholog Pipeline
+# GPCR Ortholog Pipeline - Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling
 
-This directory contains the complete pipeline for identifying and analyzing GPCR orthologs across different classes (A, B, C, F, T). The pipeline consists of Python scripts in the `Scripts/` folder and shell scripts for SLURM cluster execution.
+This directory contains the complete pipeline for identifying and analyzing GPCR orthologs across different classes (A, B, C, F, T), supporting the manuscript "Decoding Functional Specialization in GPCRs through Evolution-Guided Residue Profiling". The pipeline consists of Python scripts in the `Scripts/` folder and shell scripts for SLURM cluster execution.
 
 ## Directory Structure
 
