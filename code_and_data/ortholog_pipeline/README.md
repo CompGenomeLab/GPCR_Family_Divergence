@@ -4,7 +4,7 @@ This directory contains the complete pipeline for identifying and analyzing GPCR
 
 ## Directory Structure
 
-```
+```text
 ortholog_pipeline/
 ├── Scripts/                    # Python scripts for data processing
 ├── human_sequences/           # Human protein sequences by GPCR class
@@ -296,4 +296,4 @@ The complete ortholog identification pipeline consists of three main parts, each
 - Multiple sequence alignments (FASTA format)
 - Representative sequence sets
 - Log files with processing statistics
-- Best substitution models for each protein family                                                                                                                                                                                
+- Best substitution models for each protein family
