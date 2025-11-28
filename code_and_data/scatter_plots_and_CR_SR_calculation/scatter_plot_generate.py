@@ -64,7 +64,7 @@ cons_thr=75.27
 ent_thr1=1.78
 ent_thr2=2.63
 ordered_df = pd.read_csv(scatter_data,sep="\t")
-out_figure="classA_scatter.svg"
+out_figure="classA_scatter_update.svg"
 
 unique_annotations = ordered_df['annotation'].unique()
 print(unique_annotations)

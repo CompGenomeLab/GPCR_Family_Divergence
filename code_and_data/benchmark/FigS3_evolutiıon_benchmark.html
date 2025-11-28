@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GPCR Opsin & Ligand Binding Analysis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- D3.js & helpers -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <!-- html2canvas for PNG export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; background: #fafafa; }
+    h2 { margin: 8px 0 16px; font-weight: 600; }
+    .controls { margin: 16px 0; display: flex; gap: 12px; align-items: center; }
+    .btn { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px 16px; background:#fff; font-size: 14px; cursor: pointer; font-weight: 500; }
+    .btn:hover { background: #f0f0f0; }
+    #svgContainer { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: inline-block; }
+    .axis-label { font-size: 16px; font-family: Arial, sans-serif; }
+    .panel-title { font-size: 18px; font-weight: 600; font-family: Arial, sans-serif; }
+    .axis line, .axis path { stroke: #333; }
+    .axis text { font-size: 14px; fill: #333; }
+    .grid-line { stroke: #e0e0e0; stroke-width: 0.5; }
+    .threshold-line { stroke: #333; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0.5; }
+    .tooltip {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .tooltip-row { margin: 2px 0; }
+    .tooltip-label { font-weight: 600; color: #ffd700; }
+    .legend-item { cursor: default; }
+    .legend-text { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h2>GPCR Opsin-Specific & Ligand Binding Analysis</h2>
+
+  <div class="controls">
+    <button class="btn" onclick="downloadSVG()">Download SVG</button>
+    <button class="btn" onclick="downloadPNG()">Download PNG</button>
+  </div>
+
+  <div id="svgContainer"></div>
+  <div class="tooltip" id="tooltip"></div>
+
+<script>
+/* ========================= CONFIG ========================= */
+const CONS_THR = 75.27, ENT_THR1 = 1.78, ENT_THR2 = 2.63;
+const CLASSA_LABELS = "data/HRH2_entropy_conservation.txt";
+
+// Panel configurations
+const CONSOLIDATED_mapping_tsv_path = "Consolidated_GPCR_mapping.tsv"; // Single consolidated mapping file
+
+const OPSD_global_residues = [55,62,73,75,72,76,79,87,91,78,85,86,110,128,134,135,120,131,132,136,138,118,121,161,153,223,215,222,204,265,254,257,267,302,306,303,310,305,307];
+const OPSD_opsin_residues  = [51,58,90,113,125,171,175,167,156,230,207,250,253,296,288,294,295];
+const OPSD_scatter_hrh2_path = CLASSA_LABELS;
+
+const SANDERS_ligand_top14_path = "data/Sanders_ligand_binding_residues.txt";
+const SANDERS_scatter_hrh2_path = CLASSA_LABELS;
+
+/* ========================= Colors & Layout ========================= */
+const COLOR_GREY = "#D3D3D3", COLOR_CHAR = "#333333";
+
+// Layout for 2 panels side by side
+const PANEL_WIDTH = 480, PANEL_HEIGHT = 360;
+const PANEL_MARGIN = {top: 50, right: 20, bottom: 50, left: 60};
+const PANEL_SPACING_X = 80;
+
+const TOTAL_WIDTH = 2 * PANEL_WIDTH + PANEL_SPACING_X + PANEL_MARGIN.left + PANEL_MARGIN.right;
+const TOTAL_HEIGHT = PANEL_HEIGHT + PANEL_MARGIN.top + PANEL_MARGIN.bottom;
+
+/* ========================= Utilities ========================= */
+function firstInt(s){ const m=String(s??"").match(/\d+/); return m?parseInt(m[0],10):null; }
+function toNum(v){ const x=Number(v); return Number.isFinite(x)?x:null; }
+function uniq(arr){ return Array.from(new Set(arr)); }
+
+function readTSV(path){
+  return new Promise((resolve, reject) => {
+    Papa.parse(path, { delimiter:"\t", header:true, download:true,
+      complete: res => resolve(res.data.filter(r => Object.keys(r).length>0)),
+      error: err => reject(err)
+    });
+  });
+}
+
+/* ========================= Main Drawing Function ========================= */
+let globalGpcrdbMap = new Map(); // hrh2_int -> gpcrdb_string
+
+function drawPanel({svg, x, y, title, data, colorSpec, xDomain, yDomain}) {
+  const g = svg.append("g")
+    .attr("transform", `translate(${x}, ${y})`);
+
+  // Scales
+  const xScale = d3.scaleLinear()
+    .domain(xDomain || [0, d3.max(data, d => d.entropy) * 1.05])
+    .range([PANEL_MARGIN.left, PANEL_WIDTH - PANEL_MARGIN.right]);
+
+  const yScale = d3.scaleLinear()
+    .domain(yDomain || [0, 100])
+    .range([PANEL_HEIGHT - PANEL_MARGIN.bottom, PANEL_MARGIN.top]);
+
+  // Axes
+  const xAxis = d3.axisBottom(xScale).ticks(5);
+  const yAxis = d3.axisLeft(yScale).ticks(5).tickValues([0, 20, 40, 60, 80, 100]);
+
+  // Threshold lines
+  g.append("line")
+    .attr("class", "threshold-line")
+    .attr("x1", xScale(ENT_THR1))
+    .attr("x2", xScale(ENT_THR1))
+    .attr("y1", PANEL_MARGIN.top)
+    .attr("y2", PANEL_HEIGHT - PANEL_MARGIN.bottom);
+
+  g.append("line")
+    .attr("class", "threshold-line")
+    .attr("x1", xScale(ENT_THR2))
+    .attr("x2", xScale(ENT_THR2))
+    .attr("y1", PANEL_MARGIN.top)
+    .attr("y2", PANEL_HEIGHT - PANEL_MARGIN.bottom);
+
+  g.append("line")
+    .attr("class", "threshold-line")
+    .attr("x1", PANEL_MARGIN.left)
+    .attr("x2", PANEL_WIDTH - PANEL_MARGIN.right)
+    .attr("y1", yScale(CONS_THR))
+    .attr("y2", yScale(CONS_THR));
+
+  // Axes
+  g.append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0, ${PANEL_HEIGHT - PANEL_MARGIN.bottom})`)
+    .call(xAxis);
+
+  g.append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(${PANEL_MARGIN.left}, 0)`)
+    .call(yAxis);
+
+  // Axis labels
+  g.append("text")
+    .attr("class", "axis-label")
+    .attr("text-anchor", "middle")
+    .attr("x", (PANEL_MARGIN.left + PANEL_WIDTH - PANEL_MARGIN.right) / 2)
+    .attr("y", PANEL_HEIGHT - 5)
+    .text("Family-Wide Entropy");
+
+  g.append("text")
+    .attr("class", "axis-label")
+    .attr("text-anchor", "middle")
+    .attr("transform", `translate(15, ${(PANEL_MARGIN.top + PANEL_HEIGHT - PANEL_MARGIN.bottom) / 2}) rotate(-90)`)
+    .text("Family-Wide Conservation");
+
+  // Extract letter label (a., b., etc.) and title
+  const letterMatch = title.match(/^([a-z]\.)\s*(.+)$/);
+  const letter = letterMatch ? letterMatch[1] : "";
+  const titleText = letterMatch ? letterMatch[2] : title;
+  
+  // Letter label at top left
+  if (letter) {
+    g.append("text")
+      .attr("class", "panel-title")
+      .attr("x", 5)
+      .attr("y", 20)
+      .attr("font-weight", "700")
+      .text(letter);
+  }
+  
+  // Centered title above plot area (support multi-line with | separator)
+  const titleLines = titleText.split("|");
+  const centerX = (PANEL_MARGIN.left + PANEL_WIDTH - PANEL_MARGIN.right) / 2;
+  
+  if (titleLines.length > 1) {
+    titleLines.forEach((line, i) => {
+      g.append("text")
+        .attr("class", "panel-title")
+        .attr("text-anchor", "middle")
+        .attr("x", centerX)
+        .attr("y", 15 + i * 16)
+        .text(line.trim());
+    });
+  } else {
+    g.append("text")
+      .attr("class", "panel-title")
+      .attr("text-anchor", "middle")
+      .attr("x", centerX)
+      .attr("y", 20)
+      .text(titleText);
+  }
+
+  // Tooltip
+  const tooltip = d3.select("#tooltip");
+
+  // Categorical coloring
+  const categories = colorSpec.order || uniq(data.map(d => d.category));
+  
+  // Sort categories to draw "other" first (so it appears in the back)
+  const sortedCategories = [...categories].sort((a, b) => {
+    if (a === "other") return -1;
+    if (b === "other") return 1;
+    return 0;
+  });
+  
+  sortedCategories.forEach(cat => {
+    const catData = data.filter(d => d.category === cat);
+    
+    g.selectAll(`.circle-${cat.replace(/[^a-zA-Z0-9]/g, '_')}`)
+      .data(catData)
+      .enter().append("circle")
+      .attr("cx", d => xScale(d.entropy))
+      .attr("cy", d => yScale(d.conservation))
+      .attr("r", 4)
+      .attr("fill", colorSpec.map[cat] || COLOR_GREY)
+      .attr("opacity", 0.7)
+      .attr("stroke", "none")
+      .on("mouseover", function(event, d) {
+        d3.select(this).attr("r", 6).attr("opacity", 1).attr("stroke", "#000").attr("stroke-width", 1.5);
+        const gpcrdb = d.hrh2_int ? (globalGpcrdbMap.get(d.hrh2_int) || "N/A") : "N/A";
+        tooltip.style("opacity", 1)
+          .html(`
+            <div class="tooltip-row"><span class="tooltip-label">Conservation:</span> ${d.conservation.toFixed(2)}</div>
+            <div class="tooltip-row"><span class="tooltip-label">Entropy:</span> ${d.entropy.toFixed(2)}</div>
+            <div class="tooltip-row"><span class="tooltip-label">HRH2 GPCRdb:</span> ${gpcrdb}</div>
+            ${d.category ? `<div class="tooltip-row"><span class="tooltip-label">Category:</span> ${d.category}</div>` : ''}
+          `);
+      })
+      .on("mousemove", function(event) {
+        tooltip.style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 15) + "px");
+      })
+      .on("mouseout", function() {
+        d3.select(this).attr("r", 4).attr("opacity", 0.7).attr("stroke", "none");
+        tooltip.style("opacity", 0);
+      });
+  });
+
+  // Legend for categorical (positioned at middle-left inside plot area)
+  const legendCategories = categories.filter(cat => cat !== "other");
+  const legendX = PANEL_MARGIN.left + 15;
+  const legendY = (PANEL_MARGIN.top + PANEL_HEIGHT - PANEL_MARGIN.bottom) / 2 - (legendCategories.length * 22) / 2;
+  
+  legendCategories.forEach((cat, i) => {
+    const displayLabel = colorSpec.labels && colorSpec.labels[cat] ? colorSpec.labels[cat] : cat;
+    
+    g.append("circle")
+      .attr("cx", legendX)
+      .attr("cy", legendY + i * 22)
+      .attr("r", 5)
+      .attr("fill", colorSpec.map[cat] || COLOR_GREY)
+      .attr("class", "legend-item");
+
+    g.append("text")
+      .attr("x", legendX + 12)
+      .attr("y", legendY + i * 22 + 5)
+      .attr("class", "legend-text")
+      .text(displayLabel);
+  });
+}
+
+/* ========================= Data Preparation Functions ========================= */
+// Panel a: Global vs Opsin-Specific
+async function preparePanel_opsin() {
+  const [map, hrh2] = await Promise.all([
+    readTSV(CONSOLIDATED_mapping_tsv_path), 
+    readTSV(OPSD_scatter_hrh2_path)
+  ]);
+  
+  const mapRows = map.map(r => ({
+    hrh2_int: firstInt(r.HRH2_resNum ?? r.HRH2_resnum ?? r.hrh2_resnum ?? r.hrh2 ?? r.HRH2_res_no),
+    opsd_int: firstInt(r.OPSD_resNum ?? r.opsd_resnum ?? r.opsd)
+  })).filter(r => r.hrh2_int && r.opsd_int);
+
+  const hrh2Rows = hrh2.map(r => ({
+    hrh2_int: firstInt(r.HRH2_res_no),
+    entropy: toNum(r.entropy),
+    conservation: toNum(r.conservation)
+  })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
+
+  const globSet = new Set(uniq(OPSD_global_residues.map(firstInt).filter(Boolean)));
+  const opsnSet = new Set(uniq(OPSD_opsin_residues.map(firstInt).filter(Boolean)));
+
+  const merged = [];
+  for (const m of mapRows) {
+    const e = hrh2Rows.find(h => h.hrh2_int === m.hrh2_int);
+    if (!e) continue;
+    let category = "other";
+    if (opsnSet.has(m.opsd_int)) category = "opsin-specific";
+    else if (globSet.has(m.opsd_int)) category = "global";
+    merged.push({ entropy: e.entropy, conservation: e.conservation, category, hrh2_int: e.hrh2_int });
+  }
+
+  return {
+    title: "Madsubushi et al.|Global vs Opsin-Specific",
+    data: merged,
+    colorSpec: {
+      type: "categorical",
+      key: "category",
+      map: { "global": "#7caec4", "opsin-specific": "#7d2985", "other": COLOR_GREY },
+      order: ["global", "opsin-specific", "other"],
+      labels: { "global": "Global", "opsin-specific": "Opsin-specific", "other": "Other" }
+    }
+  };
+}
+
+// Panel b: Sanders Ligand Binding
+async function preparePanel_sanders() {
+  const ligandText = await fetch(SANDERS_ligand_top14_path).then(r => r.text());
+  const ligandLines = ligandText.split(/\r?\n/).map(l => l.trim()).filter(l => l);
+  
+  const [map, hrh2] = await Promise.all([
+    readTSV(CONSOLIDATED_mapping_tsv_path),
+    readTSV(SANDERS_scatter_hrh2_path)
+  ]);
+  
+  const hrh2GpcrdbCol = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("hrh2") && k.toLowerCase().includes("gpcrdb")) || "HRH2_gpcrdb";
+  const hrh2ResCol = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("hrh2") && k.toLowerCase().includes("resnum")) || "HRH2_resNum";
+  
+  const normMap = map.map(r => ({
+    hrh2_gpcrdb: String(r[hrh2GpcrdbCol] ?? "").trim().toLowerCase(),
+    hrh2_int: firstInt(r[hrh2ResCol])
+  })).filter(r => r.hrh2_gpcrdb && r.hrh2_int);
+  
+  const ligandSet = new Set(ligandLines.map(x => String(x).trim().toLowerCase()));
+  
+  const hrh2Rows = hrh2.map(r => ({
+    hrh2_int: firstInt(r.HRH2_res_no),
+    entropy: toNum(r.entropy),
+    conservation: toNum(r.conservation)
+  })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
+  
+  const ligandHrh2 = new Set(normMap.filter(m => ligandSet.has(m.hrh2_gpcrdb)).map(m => m.hrh2_int));
+  
+  const merged = hrh2Rows.map(e => ({
+    entropy: e.entropy,
+    conservation: e.conservation,
+    category: ligandHrh2.has(e.hrh2_int) ? "ligand-binding" : "other",
+    hrh2_int: e.hrh2_int
+  }));
+  
+  return {
+    title: "Sanders et al.|ssTEA Ligand Binding Pocket Top 14",
+    data: merged,
+    colorSpec: {
+      type: "categorical",
+      key: "category",
+      map: { "ligand-binding": COLOR_CHAR, "other": COLOR_GREY },
+      order: ["ligand-binding", "other"],
+      labels: { "ligand-binding": "Ligand Binding", "other": "Other" }
+    }
+  };
+}
+
+/* ========================= Build GPCRdb Map ========================= */
+async function buildGpcrdbMap() {
+  try {
+    const map = await readTSV(CONSOLIDATED_mapping_tsv_path);
+    const gpcrdbCol = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("hrh2") && k.toLowerCase().includes("gpcrdb")) || "HRH2_gpcrdb";
+    const hrh2Col = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("hrh2") && k.toLowerCase().includes("resnum")) || "HRH2_resNum";
+    
+    map.forEach(r => {
+      const hrh2_int = firstInt(r[hrh2Col]);
+      const gpcrdb = String(r[gpcrdbCol] ?? "").trim();
+      if (hrh2_int && gpcrdb) {
+        globalGpcrdbMap.set(hrh2_int, gpcrdb);
+      }
+    });
+  } catch (e) {
+    console.warn("Could not load GPCRdb mapping:", e);
+  }
+}
+
+/* ========================= Main Render ========================= */
+async function renderPanels() {
+  try {
+    await buildGpcrdbMap();
+
+    const [panelA, panelB] = await Promise.all([
+      preparePanel_opsin(),
+      preparePanel_sanders()
+    ]);
+
+    const svg = d3.select("#svgContainer")
+      .append("svg")
+      .attr("width", TOTAL_WIDTH)
+      .attr("height", TOTAL_HEIGHT)
+      .attr("id", "mainSvg");
+
+    // Two panels side by side
+    const positions = [
+      { x: 0, y: 0 },
+      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 0 }
+    ];
+
+    const panels = [panelA, panelB];
+    panels.forEach((panel, i) => {
+      const letter = String.fromCharCode(97 + i); // 97 is 'a'
+      drawPanel({
+        svg: svg,
+        x: positions[i].x,
+        y: positions[i].y,
+        title: `${letter}. ${panel.title}`,
+        data: panel.data,
+        colorSpec: panel.colorSpec
+      });
+    });
+
+    console.log("Panels rendered successfully!");
+  } catch (e) {
+    console.error("Error rendering panels:", e);
+    alert("Error rendering plots. See console for details.");
+  }
+}
+
+/* ========================= SVG Download ========================= */
+function downloadSVG() {
+  const svgElement = document.getElementById("mainSvg");
+  const serializer = new XMLSerializer();
+  let svgString = serializer.serializeToString(svgElement);
+  
+  const styles = `<style type="text/css">
+          .axis-label { font-size: 16px; font-family: Arial, sans-serif; }
+          .panel-title { font-size: 18px; font-weight: 600; font-family: Arial, sans-serif; }
+          .axis line, .axis path { stroke: #333; }
+          .axis text { font-size: 14px; fill: #333; font-family: Arial, sans-serif; }
+          .grid-line { stroke: #e0e0e0; stroke-width: 0.5; }
+          .threshold-line { stroke: #333; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0.5; }
+          .legend-text { font-size: 14px; font-family: Arial, sans-serif; }
+        </style>`;
+  
+  if (svgString.includes('<defs>')) {
+    svgString = svgString.replace('<defs>', '<defs>' + styles);
+  } else {
+    svgString = svgString.replace(/(<svg[^>]*>)/, '$1<defs>' + styles + '</defs>');
+  }
+  
+  svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + svgString;
+  
+  const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "opsin_ligand_combined.svg";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+/* ========================= PNG Download ========================= */
+function downloadPNG() {
+  const container = document.getElementById("svgContainer");
+  
+  // Show a loading message
+  const originalHTML = container.innerHTML;
+  
+  html2canvas(container, {
+    scale: 2, // Higher resolution
+    backgroundColor: '#ffffff',
+    logging: false,
+    useCORS: true
+  }).then(canvas => {
+    // Convert canvas to blob
+    canvas.toBlob(function(blob) {
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "opsin_ligand_combined.png";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    });
+  }).catch(err => {
+    console.error("Error generating PNG:", err);
+    alert("Error generating PNG. See console for details.");
+  });
+}
+
+/* ========================= Initialize ========================= */
+renderPanels();
+</script>
+</body>
+</html>
+

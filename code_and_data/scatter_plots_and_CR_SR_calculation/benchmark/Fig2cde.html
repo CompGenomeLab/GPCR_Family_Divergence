@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GPCR Horizontal Combined Plot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- D3.js & helpers -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; background: #fafafa; }
+    h2 { margin: 8px 0 16px; font-weight: 600; }
+    .controls { margin: 16px 0; display: flex; gap: 12px; align-items: center; }
+    .btn { border: 1px solid #d0d0d0; border-radius: 8px; padding: 8px 16px; background:#fff; font-size: 14px; cursor: pointer; font-weight: 500; }
+    .btn:hover { background: #f0f0f0; }
+    #svgContainer { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: inline-block; }
+    .axis-label { font-size: 14px; font-family: Arial, sans-serif; }
+    .panel-title { font-size: 16px; font-weight: 600; font-family: Arial, sans-serif; }
+    .axis line, .axis path { stroke: #333; }
+    .axis text { font-size: 12px; fill: #333; }
+    .grid-line { stroke: #e0e0e0; stroke-width: 0.5; }
+    .threshold-line { stroke: #333; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0.5; }
+    .tooltip {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .tooltip-row { margin: 2px 0; }
+    .tooltip-label { font-weight: 600; color: #ffd700; }
+    .legend-item { cursor: default; }
+    .legend-text { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h2>GPCR Combined Horizontal View</h2>
+
+  <div class="controls">
+    <button class="btn" onclick="downloadSVG()">Download Combined SVG</button>
+  </div>
+
+  <div id="svgContainer"></div>
+  <div class="tooltip" id="tooltip"></div>
+
+<script>
+/* ========================= CONFIG ========================= */
+const CONS_THR = 75.27, ENT_THR1 = 1.78, ENT_THR2 = 2.63;
+const CLASSA_LABELS = "data/HRH2_entropy_conservation.txt";
+
+// Panel configurations
+const CLINVAR_tsv_path = "data/ClinVar_aggregated_pathogenicity.txt";
+const CLINVAR_scatter_hrh2_path = CLASSA_LABELS;
+
+const COMBINED_significance_tsv_path = "data/Combined_mutational_intolerance.tsv";
+const COMBINED_scatter_hrh2_path = CLASSA_LABELS;
+
+const HRH2_activation_gpcrdb_list = [
+  "1x49","1x53","2x43","2x46","2x50",
+  "3x39","3x40","3x43","3x46","3x49","3x50","3x51","3x53","3x54",
+  "5x51","5x55","5x57","5x58","5x61","5x62",
+  "6x33","6x37","6x40","6x41","6x44","6x48",
+  "7x45","7x49","7x50","7x52","7x53","7x54","7x55",
+  "8x50","8x51"
+];
+const CONSOLIDATED_mapping_tsv_path = "Consolidated_GPCR_mapping.tsv"; // Single consolidated mapping file
+const HRH2_scatter_hrh2_path = CLASSA_LABELS;
+
+/* ========================= Colors & Layout ========================= */
+const COLOR_GREY="#D3D3D3", COLOR_RED="#D62728", COLOR_ORNG="#FFA500", 
+      COLOR_BLUE="#4E79A7", COLOR_CHAR="#333333", COLOR_GOLD="#E0BC58";
+
+// Layout for horizontal arrangement (3 panels side by side)
+const PANEL_WIDTH = 360, PANEL_HEIGHT = 360;
+const PANEL_MARGIN = {top: 80, right: 40, bottom: 10, left: 10};
+const PANEL_SPACING_X = 0; // Space between panels
+const COLORBAR_HEIGHT = 15; // Height for horizontal colorbar
+const COLORBAR_WIDTH = 200; // Width for horizontal colorbar
+
+const TOTAL_WIDTH = 3 * PANEL_WIDTH + 2 * PANEL_SPACING_X + PANEL_MARGIN.left + PANEL_MARGIN.right;
+const TOTAL_HEIGHT = PANEL_HEIGHT + PANEL_MARGIN.top + PANEL_MARGIN.bottom;
+
+/* ========================= Utilities ========================= */
+function firstInt(s){ const m=String(s??"").match(/\d+/); return m?parseInt(m[0],10):null; }
+function toNum(v){ const x=Number(v); return Number.isFinite(x)?x:null; }
+function uniq(arr){ return Array.from(new Set(arr)); }
+
+function readTSV(path){
+  return new Promise((resolve, reject) => {
+    Papa.parse(path, { delimiter:"\t", header:true, download:true,
+      complete: res => resolve(res.data.filter(r => Object.keys(r).length>0)),
+      error: err => reject(err)
+    });
+  });
+}
+
+/* ========================= Main Drawing Function ========================= */
+let globalGpcrdbMap = new Map(); // hrh2_int -> gpcrdb_string
+
+function drawPanel({svg, x, y, title, data, colorSpec, xDomain, yDomain}) {
+  const g = svg.append("g")
+    .attr("transform", `translate(${x}, ${y})`);
+
+  // Scales
+  const xScale = d3.scaleLinear()
+    .domain(xDomain || [0, d3.max(data, d => d.entropy) * 1.05])
+    .range([PANEL_MARGIN.left, PANEL_WIDTH - PANEL_MARGIN.right]);
+
+  const yScale = d3.scaleLinear()
+    .domain(yDomain || [0, 100])
+    .range([PANEL_HEIGHT - PANEL_MARGIN.bottom, PANEL_MARGIN.top]);
+
+  // X axis line (no ticks)
+  const xAxis = d3.axisBottom(xScale).tickSize(0).tickFormat("");
+  
+  g.append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0, ${PANEL_HEIGHT - PANEL_MARGIN.bottom + 10})`)
+    .call(xAxis)
+    .selectAll("path")
+    .style("stroke-width", "3px");
+
+  // Title centered below the plot
+  g.append("text")
+    .attr("class", "panel-title")
+    .attr("text-anchor", "middle")
+    .attr("x", (PANEL_MARGIN.left + PANEL_WIDTH - PANEL_MARGIN.right) / 2)
+    .attr("y", PANEL_HEIGHT - PANEL_MARGIN.bottom + 25)
+    .text(title);
+
+  // Tooltip
+  const tooltip = d3.select("#tooltip");
+
+  if (colorSpec.type === "categorical") {
+    // Categorical coloring
+    const categories = colorSpec.order || uniq(data.map(d => d.category));
+    
+    // Sort categories to draw "other" first (so it appears in the back)
+    const sortedCategories = [...categories].sort((a, b) => {
+      if (a === "other") return -1;
+      if (b === "other") return 1;
+      return 0;
+    });
+    
+    sortedCategories.forEach(cat => {
+      const catData = data.filter(d => d.category === cat);
+      
+      g.selectAll(`.circle-${cat.replace(/[^a-zA-Z0-9]/g, '_')}`)
+        .data(catData)
+        .enter().append("circle")
+        .attr("cx", d => xScale(d.entropy))
+        .attr("cy", d => yScale(d.conservation))
+        .attr("r", 4)
+        .attr("fill", colorSpec.map[cat] || COLOR_GREY)
+        .attr("opacity", 0.7)
+        .attr("stroke", "none")
+        .on("mouseover", function(event, d) {
+          d3.select(this).attr("r", 6).attr("opacity", 1).attr("stroke", "#000").attr("stroke-width", 1.5);
+          const gpcrdb = d.hrh2_int ? (globalGpcrdbMap.get(d.hrh2_int) || "N/A") : "N/A";
+          tooltip.style("opacity", 1)
+            .html(`
+              <div class="tooltip-row"><span class="tooltip-label">Conservation:</span> ${d.conservation.toFixed(2)}</div>
+              <div class="tooltip-row"><span class="tooltip-label">Entropy:</span> ${d.entropy.toFixed(2)}</div>
+              <div class="tooltip-row"><span class="tooltip-label">HRH2 GPCRdb:</span> ${gpcrdb}</div>
+              ${d.category ? `<div class="tooltip-row"><span class="tooltip-label">Category:</span> ${d.category}</div>` : ''}
+            `);
+        })
+        .on("mousemove", function(event) {
+          tooltip.style("left", (event.pageX + 15) + "px")
+            .style("top", (event.pageY - 15) + "px");
+        })
+        .on("mouseout", function() {
+          d3.select(this).attr("r", 4).attr("opacity", 0.7).attr("stroke", "none");
+          tooltip.style("opacity", 0);
+        });
+    });
+
+    // Legend for categorical (positioned at top center)
+    const legendCategories = categories.filter(cat => cat !== "other");
+    const legendItemWidth = 120; // Width per legend item
+    const totalLegendWidth = legendCategories.length * legendItemWidth;
+    const legendStartX = (PANEL_MARGIN.left + PANEL_WIDTH - PANEL_MARGIN.right) / 2 - totalLegendWidth / 2;
+    const legendY = 30;
+    
+    legendCategories.forEach((cat, i) => {
+      const displayLabel = colorSpec.labels && colorSpec.labels[cat] ? colorSpec.labels[cat] : cat;
+      
+      g.append("circle")
+        .attr("cx", legendStartX + i * legendItemWidth)
+        .attr("cy", legendY)
+        .attr("r", 5)
+        .attr("fill", colorSpec.map[cat] || COLOR_GREY)
+        .attr("class", "legend-item");
+
+      g.append("text")
+        .attr("x", legendStartX + i * legendItemWidth + 12)
+        .attr("y", legendY + 5)
+        .attr("class", "legend-text")
+        .text(displayLabel);
+    });
+
+  } else {
+    // Continuous coloring
+    const colorScale = d3.scaleLinear()
+      .domain(d3.extent(data, d => d.colorValue))
+      .range([colorSpec.lowColor, colorSpec.highColor])
+      .interpolate(d3.interpolateRgb);
+
+    // Size scale for variable dot sizes (optional)
+    let sizeScale = null;
+    if (colorSpec.useSizeScale) {
+      const sizeExtent = d3.extent(data, d => d.sizeValue);
+      sizeScale = d3.scaleSqrt()
+        .domain(sizeExtent)
+        .range([2, 8]);
+    }
+
+    if (colorSpec.midColor) {
+      const [min, max] = d3.extent(data, d => d.colorValue);
+      let midpoint = (min + max) / 2;
+      
+      if (colorSpec.centerAtZero) {
+        midpoint = 0;
+        
+        if (colorSpec.extremeTransition) {
+          const threshold = colorSpec.extremeTransition;
+          const lowTransition = min * threshold;
+          const highTransition = max * threshold;
+          
+          colorScale.domain([min, lowTransition, 0, highTransition, max])
+            .range([colorSpec.lowColor, colorSpec.midColor, colorSpec.midColor, colorSpec.midColor, colorSpec.highColor]);
+        } else if (colorSpec.lowMidColor && colorSpec.highMidColor) {
+          const greyExtent = colorSpec.greyExtent || 0.3;
+          const lowMid = min * greyExtent;
+          const highMid = max * greyExtent;
+          
+          colorScale.domain([min, lowMid, 0, highMid, max])
+            .range([colorSpec.lowColor, colorSpec.lowMidColor, colorSpec.midColor, colorSpec.highMidColor, colorSpec.highColor]);
+        } else {
+          colorScale.domain([min, 0, max])
+            .range([colorSpec.lowColor, colorSpec.midColor, colorSpec.highColor]);
+        }
+      } else {
+        if (colorSpec.midPosition != null) {
+          midpoint = min + (max - min) * colorSpec.midPosition;
+        }
+        colorScale.domain([min, midpoint, max])
+          .range([colorSpec.lowColor, colorSpec.midColor, colorSpec.highColor]);
+      }
+    }
+
+    g.selectAll(".data-circle")
+      .data(data)
+      .enter().append("circle")
+      .attr("cx", d => xScale(d.entropy))
+      .attr("cy", d => yScale(d.conservation))
+      .attr("r", d => sizeScale ? sizeScale(d.sizeValue) : 4)
+      .attr("fill", d => colorScale(d.colorValue))
+      .attr("opacity", 0.7)
+      .attr("stroke", "none")
+      .on("mouseover", function(event, d) {
+        const baseRadius = sizeScale ? sizeScale(d.sizeValue) : 4;
+        const hoverRadius = baseRadius * 1.5;
+        d3.select(this).attr("r", hoverRadius).attr("opacity", 1).attr("stroke", "#000").attr("stroke-width", 1.5);
+        const gpcrdb = d.hrh2_int ? (globalGpcrdbMap.get(d.hrh2_int) || "N/A") : "N/A";
+        const sizeInfo = d.sizeValue ? `<div class="tooltip-row"><span class="tooltip-label">Evidence Count:</span> ${d.sizeValue}</div>` : '';
+        tooltip.style("opacity", 1)
+          .html(`
+            <div class="tooltip-row"><span class="tooltip-label">Conservation:</span> ${d.conservation.toFixed(2)}</div>
+            <div class="tooltip-row"><span class="tooltip-label">Entropy:</span> ${d.entropy.toFixed(2)}</div>
+            <div class="tooltip-row"><span class="tooltip-label">HRH2 GPCRdb:</span> ${gpcrdb}</div>
+            <div class="tooltip-row"><span class="tooltip-label">${colorSpec.colorbarTitle}:</span> ${d.colorValue.toFixed(3)}</div>
+            ${sizeInfo}
+          `);
+      })
+      .on("mousemove", function(event) {
+        tooltip.style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 15) + "px");
+      })
+      .on("mouseout", function(event, d) {
+        const baseRadius = sizeScale ? sizeScale(d.sizeValue) : 4;
+        d3.select(this).attr("r", baseRadius).attr("opacity", 0.7).attr("stroke", "none");
+        tooltip.style("opacity", 0);
+      });
+
+    // Horizontal color bar at top
+    const colorbarX = (PANEL_MARGIN.left + PANEL_WIDTH - PANEL_MARGIN.right) / 2 - COLORBAR_WIDTH / 2;
+    const colorbarY = 15;
+
+    const defs = svg.append("defs");
+    const gradient = defs.append("linearGradient")
+      .attr("id", `gradient-${title.replace(/[^a-zA-Z0-9]/g, '_')}`)
+      .attr("x1", "0%")
+      .attr("y1", "0%")
+      .attr("x2", "100%")
+      .attr("y2", "0%");
+
+    let [minVal, maxVal] = d3.extent(data, d => d.colorValue);
+    
+    if (colorSpec.midColor) {
+      let midOffset = "50%";
+      
+      if (colorSpec.centerAtZero) {
+        const range = maxVal - minVal;
+        const zeroPosition = range > 0 ? (0 - minVal) / range : 0.5;
+        midOffset = (zeroPosition * 100).toFixed(1) + "%";
+        
+        if (colorSpec.extremeTransition) {
+          const threshold = colorSpec.extremeTransition;
+          const lowTransition = minVal * threshold;
+          const highTransition = maxVal * threshold;
+          
+          const lowTransPosition = (lowTransition - minVal) / range;
+          const highTransPosition = (highTransition - minVal) / range;
+          
+          const lowTransOffset = (lowTransPosition * 100).toFixed(1) + "%";
+          const highTransOffset = (highTransPosition * 100).toFixed(1) + "%";
+          
+          gradient.append("stop").attr("offset", "0%").attr("stop-color", colorSpec.lowColor);
+          gradient.append("stop").attr("offset", lowTransOffset).attr("stop-color", colorSpec.midColor);
+          gradient.append("stop").attr("offset", midOffset).attr("stop-color", colorSpec.midColor);
+          gradient.append("stop").attr("offset", highTransOffset).attr("stop-color", colorSpec.midColor);
+          gradient.append("stop").attr("offset", "100%").attr("stop-color", colorSpec.highColor);
+        } else if (colorSpec.lowMidColor && colorSpec.highMidColor) {
+          const greyExtent = colorSpec.greyExtent || 0.3;
+          const lowMidVal = minVal * greyExtent;
+          const highMidVal = maxVal * greyExtent;
+          
+          const lowMidPosition = (lowMidVal - minVal) / range;
+          const highMidPosition = (highMidVal - minVal) / range;
+          
+          const lowMidOffset = (lowMidPosition * 100).toFixed(1) + "%";
+          const highMidOffset = (highMidPosition * 100).toFixed(1) + "%";
+          
+          gradient.append("stop").attr("offset", "0%").attr("stop-color", colorSpec.lowColor);
+          gradient.append("stop").attr("offset", lowMidOffset).attr("stop-color", colorSpec.lowMidColor);
+          gradient.append("stop").attr("offset", midOffset).attr("stop-color", colorSpec.midColor);
+          gradient.append("stop").attr("offset", highMidOffset).attr("stop-color", colorSpec.highMidColor);
+          gradient.append("stop").attr("offset", "100%").attr("stop-color", colorSpec.highColor);
+        } else {
+          gradient.append("stop").attr("offset", "0%").attr("stop-color", colorSpec.lowColor);
+          gradient.append("stop").attr("offset", midOffset).attr("stop-color", colorSpec.midColor);
+          gradient.append("stop").attr("offset", "100%").attr("stop-color", colorSpec.highColor);
+        }
+      } else {
+        if (colorSpec.midPosition != null) {
+          midOffset = (colorSpec.midPosition * 100).toFixed(1) + "%";
+        }
+        gradient.append("stop").attr("offset", "0%").attr("stop-color", colorSpec.lowColor);
+        gradient.append("stop").attr("offset", midOffset).attr("stop-color", colorSpec.midColor);
+        gradient.append("stop").attr("offset", "100%").attr("stop-color", colorSpec.highColor);
+      }
+    } else {
+      gradient.append("stop").attr("offset", "0%").attr("stop-color", colorSpec.lowColor);
+      gradient.append("stop").attr("offset", "100%").attr("stop-color", colorSpec.highColor);
+    }
+
+    g.append("rect")
+      .attr("x", colorbarX)
+      .attr("y", colorbarY)
+      .attr("width", COLORBAR_WIDTH)
+      .attr("height", COLORBAR_HEIGHT)
+      .style("fill", `url(#gradient-${title.replace(/[^a-zA-Z0-9]/g, '_')})`);
+
+    // Labels for horizontal colorbar
+    g.append("text")
+      .attr("x", colorbarX)
+      .attr("y", colorbarY - 5)
+      .attr("class", "legend-text")
+      .attr("text-anchor", "start")
+      .text(minVal.toFixed(2));
+
+    g.append("text")
+      .attr("x", colorbarX + COLORBAR_WIDTH)
+      .attr("y", colorbarY - 5)
+      .attr("class", "legend-text")
+      .attr("text-anchor", "end")
+      .text(maxVal.toFixed(2));
+
+    // Add zero label at the correct position for centered colormaps
+    if (colorSpec.centerAtZero && colorSpec.midColor) {
+      const range = maxVal - minVal;
+      const zeroPosition = range > 0 ? (0 - minVal) / range : 0.5;
+      const zeroX = colorbarX + COLORBAR_WIDTH * zeroPosition;
+      
+      g.append("text")
+        .attr("x", zeroX)
+        .attr("y", colorbarY - 5)
+        .attr("class", "legend-text")
+        .attr("text-anchor", "middle")
+        .text("0");
+    }
+
+    // Title above colorbar
+    g.append("text")
+      .attr("x", colorbarX + COLORBAR_WIDTH / 2)
+      .attr("y", colorbarY + COLORBAR_HEIGHT + 15)
+      .attr("class", "legend-text")
+      .attr("text-anchor", "middle")
+      .text(colorSpec.colorbarTitle);
+  }
+}
+
+/* ========================= Data Preparation Functions ========================= */
+async function preparePanel_clinvar() {
+  const [clinvar, hrh2] = await Promise.all([
+    readTSV(CLINVAR_tsv_path),
+    readTSV(CLINVAR_scatter_hrh2_path)
+  ]);
+  
+  const clinvarRows = clinvar.map(r => ({
+    hrh2_int: firstInt(r.HRH2_HUMAN_resnum),
+    score: toNum(r.total_score),
+    n_evidence: toNum(r.n_evidence)
+  })).filter(r => r.hrh2_int != null && r.score != null && r.n_evidence != null);
+  
+  const hrh2Rows = hrh2.map(r => ({
+    hrh2_int: firstInt(r.HRH2_res_no),
+    entropy: toNum(r.entropy),
+    conservation: toNum(r.conservation)
+  })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
+  
+  const merged = [];
+  for (const c of clinvarRows) {
+    const e = hrh2Rows.find(h => h.hrh2_int === c.hrh2_int);
+    if (!e) continue;
+    
+    merged.push({
+      entropy: e.entropy,
+      conservation: e.conservation,
+      colorValue: c.score,
+      sizeValue: c.n_evidence,
+      hrh2_int: e.hrh2_int
+    });
+  }
+  
+  return {
+    title: "ClinVar Aggregated Data",
+    data: merged,
+    colorSpec: {
+      type: "continuous",
+      colorbarTitle: "Pathogenicity Score",
+      lowColor: "#1a4d6b",
+      lowMidColor: "#7caec4",
+      midColor: COLOR_GREY,
+      highMidColor: COLOR_ORNG,
+      highColor: COLOR_RED,
+      centerAtZero: true,
+      greyExtent: 0.7,
+      useSizeScale: true
+    }
+  };
+}
+
+async function preparePanel_combined() {
+  const [combined, hrh2] = await Promise.all([
+    readTSV(COMBINED_significance_tsv_path),
+    readTSV(COMBINED_scatter_hrh2_path)
+  ]);
+
+  const combinedRows = combined.map(r => ({
+    hrh2_int: firstInt(r.HRH2_resNum),
+    significance: toNum(r.combined_significance),
+    n_datasets: firstInt(r.n_datasets)
+  })).filter(r => r.hrh2_int && r.significance != null);
+
+  const hrh2Rows = hrh2.map(r => ({
+    hrh2_int: firstInt(r.HRH2_res_no),
+    entropy: toNum(r.entropy),
+    conservation: toNum(r.conservation)
+  })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
+
+  const merged = [];
+  for (const c of combinedRows) {
+    const h = hrh2Rows.find(h => h.hrh2_int === c.hrh2_int);
+    if (!h) continue;
+    
+    merged.push({ 
+      entropy: h.entropy, 
+      conservation: h.conservation, 
+      colorValue: c.significance,
+      hrh2_int: h.hrh2_int 
+    });
+  }
+
+  const minSig = Math.min(...merged.map(r => r.colorValue ?? Infinity));
+  merged.forEach(r => { if (r.colorValue == null) r.colorValue = minSig; });
+
+  return {
+    title: "Combined Mutational Intolerance",
+    data: merged,
+    colorSpec: {
+      type: "continuous",
+      colorbarTitle: "Mutational Intolerance",
+      lowColor: COLOR_GREY,
+      midColor: COLOR_ORNG,
+      highColor: COLOR_RED,
+      midPosition: 0.7
+    }
+  };
+}
+
+async function preparePanel_activation() {
+  const [map, hrh2] = await Promise.all([readTSV(CONSOLIDATED_mapping_tsv_path), readTSV(HRH2_scatter_hrh2_path)]);
+  
+  const gpcrdbCol = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("gpcrdb")) || "HRH2_gpcrdb";
+  const hrh2Col = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("resnum")) || "HRH2_resNum";
+
+  const normMap = map.map(r => ({
+    gpcrdb: String(r[gpcrdbCol] ?? "").trim().toLowerCase(),
+    hrh2_int: firstInt(r[hrh2Col])
+  })).filter(r => r.gpcrdb && r.hrh2_int);
+
+  const actSet = new Set(uniq(HRH2_activation_gpcrdb_list.map(x => String(x).trim().toLowerCase())));
+  const hrh2Rows = hrh2.map(r => ({
+    hrh2_int: firstInt(r.HRH2_res_no),
+    entropy: toNum(r.entropy),
+    conservation: toNum(r.conservation)
+  })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
+
+  const actH = new Set(normMap.filter(m => actSet.has(m.gpcrdb)).map(m => m.hrh2_int));
+  const merged = hrh2Rows.map(e => ({
+    entropy: e.entropy,
+    conservation: e.conservation,
+    category: actH.has(e.hrh2_int) ? "activation-network" : "other",
+    hrh2_int: e.hrh2_int
+  }));
+
+  return {
+    title: "Common Activation Network",
+    data: merged,
+    colorSpec: {
+      type: "categorical",
+      key: "category",
+      map: { "activation-network": COLOR_CHAR, "other": COLOR_GREY },
+      order: ["activation-network", "other"],
+      labels: { "activation-network": "Network Positions", "other": "Other" }
+    }
+  };
+}
+
+/* ========================= Build GPCRdb Map ========================= */
+async function buildGpcrdbMap() {
+  try {
+    const map = await readTSV(CONSOLIDATED_mapping_tsv_path);
+    const gpcrdbCol = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("gpcrdb")) || "HRH2_gpcrdb";
+    const hrh2Col = Object.keys(map[0] || {}).find(k => k.toLowerCase().includes("resnum")) || "HRH2_resNum";
+    
+    map.forEach(r => {
+      const hrh2_int = firstInt(r[hrh2Col]);
+      const gpcrdb = String(r[gpcrdbCol] ?? "").trim();
+      if (hrh2_int && gpcrdb) {
+        globalGpcrdbMap.set(hrh2_int, gpcrdb);
+      }
+    });
+  } catch (e) {
+    console.warn("Could not load GPCRdb mapping:", e);
+  }
+}
+
+/* ========================= Main Render ========================= */
+async function renderAllPanels() {
+  try {
+    await buildGpcrdbMap();
+
+    const [panelClinvar, panelCombined, panelActivation] = await Promise.all([
+      preparePanel_clinvar(),
+      preparePanel_combined(),
+      preparePanel_activation()
+    ]);
+
+    const svg = d3.select("#svgContainer")
+      .append("svg")
+      .attr("width", TOTAL_WIDTH)
+      .attr("height", TOTAL_HEIGHT)
+      .attr("id", "mainSvg");
+
+    // Three panels side by side
+    const positions = [
+      { x: 0, y: 0 },
+      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 0 },
+      { x: 2 * (PANEL_WIDTH + PANEL_SPACING_X), y: 0 }
+    ];
+
+    const panels = [panelClinvar, panelCombined, panelActivation];
+    panels.forEach((panel, i) => {
+      drawPanel({
+        svg: svg,
+        x: positions[i].x,
+        y: positions[i].y,
+        title: panel.title,
+        data: panel.data,
+        colorSpec: panel.colorSpec
+      });
+    });
+
+    console.log("All panels rendered successfully!");
+  } catch (e) {
+    console.error("Error rendering panels:", e);
+    alert("Error rendering plots. See console for details.");
+  }
+}
+
+/* ========================= SVG Download ========================= */
+function downloadSVG() {
+  const svgElement = document.getElementById("mainSvg");
+  const serializer = new XMLSerializer();
+  let svgString = serializer.serializeToString(svgElement);
+  
+  const styles = `<style type="text/css">
+          .axis-label { font-size: 14px; font-family: Arial, sans-serif; }
+          .panel-title { font-size: 16px; font-weight: 600; font-family: Arial, sans-serif; }
+          .axis line, .axis path { stroke: #333; }
+          .axis text { font-size: 12px; fill: #333; font-family: Arial, sans-serif; }
+          .grid-line { stroke: #e0e0e0; stroke-width: 0.5; }
+          .threshold-line { stroke: #333; stroke-width: 2; stroke-dasharray: 5,5; opacity: 0.5; }
+          .legend-text { font-size: 12px; font-family: Arial, sans-serif; }
+        </style>`;
+  
+  if (svgString.includes('<defs>')) {
+    svgString = svgString.replace('<defs>', '<defs>' + styles);
+  } else {
+    svgString = svgString.replace(/(<svg[^>]*>)/, '$1<defs>' + styles + '</defs>');
+  }
+  
+  svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + svgString;
+  
+  const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "gpcr_horizontal_combined.svg";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+/* ========================= Initialize ========================= */
+renderAllPanels();
+</script>
+</body>
+</html>
+

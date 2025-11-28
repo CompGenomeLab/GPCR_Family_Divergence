@@ -16,6 +16,7 @@ Supplementary Information/
 │   ├── Figure5.png                    # Class C analysis
 │   └── Figure6.png                    # Subtype-specific selective residues in ligand and transducer selectivity
 └── code_and_data/                     # Computational analysis files
+    ├── benchmark/                     # Interactive benchmark visualizations
     ├── ortholog_pipeline/             # Ortholog identification pipeline
     ├── CRs_and_SRs_on_structure/     # Structural visualizations
     └── scatter_plots_and_CR_SR_calculation/  # Scatter plot generation
@@ -70,6 +71,18 @@ The **Figures/** directory contains all manuscript figures:
 
 The **code_and_data/** directory contains all computational analysis files:
 
+### benchmark/
+- **Interactive HTML visualizations** for benchmarking evolutionary predictions against experimental data
+- **4 visualization files**:
+  - `FigS1_DMS_benchmark.html` - Deep mutational scanning data (ADRB2, MC4R, GPR68, V2R)
+  - `FigS2_correlation_plots.html` - Correlation analyses across experimental datasets
+  - `FigS3_evolutiıon_benchmark.html` - Evolution-based functional predictions (OPSD, Sanders)
+  - `Fig2cde.html` - Combined view (ClinVar, mutational intolerance, activation network)
+- **Consolidated mapping**: Single unified GPCR residue mapping file for mapping class A receptors to HRH2
+- **Data folder**: Experimental datasets including DMS studies, clinical variants, and evolutionary data
+- **Analysis scripts**: Python scripts for calculating combined mutational intolerance scores
+- See `benchmark/README.md` for detailed documentation
+
 ### ortholog_pipeline/
 - Complete pipeline for identifying GPCR orthologs
 - Python scripts for sequence processing and phylogenetic analysis
@@ -100,10 +113,22 @@ The **code_and_data/** directory contains all computational analysis files:
 1. Open PNG files in any image viewer
 2. Figures correspond to manuscript figures with same numbering
 
+### Interactive Benchmark Visualizations
+1. Navigate to **code_and_data/benchmark/**
+2. Open any HTML file in a modern web browser (Chrome, Firefox, Edge)
+3. Explore interactive plots:
+   - **FigS1**: Deep mutational scanning benchmarks (10 panels)
+   - **FigS2**: Correlation analyses across datasets (20 panels)
+   - **FigS3**: Evolution-based predictions (2 panels)
+   - **Fig2cde**: Combined horizontal view (3 panels)
+4. Features: hover for details, click legend to toggle, pan and zoom
+5. All data loads locally - no internet connection required
+
 ### Running Analysis
 1. Navigate to **code_and_data/** for computational scripts
 2. Follow README files in each subdirectory for specific instructions
 3. Use provided SLURM scripts for cluster execution
+4. Run **benchmark/data/calculate_combined_significance.py** to calculate combined mutational intolerance scores
 
 ## Alignment Strategy
 
@@ -144,4 +169,5 @@ All data and code are available at: https://github.com/CompGenomeLab/GPCR_Family
 ## Contact
 
 For questions or issues with the data or code, please contact:
+- **Berkay Selcuk**: selcuk.1@buckeyemail.osu.edu
 - **Ogün Adebali**: oadebali@sabanciuniv.edu

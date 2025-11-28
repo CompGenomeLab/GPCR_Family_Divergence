@@ -1,0 +1,2997 @@
+UniProt	GeneSymbol	HGNC_ID	ProteinSub	res_num	label	ClinicalSignificance
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ile188Phe	188	pathogenic	Pathogenic/Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ile188Phe	188	pathogenic	Pathogenic/Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Gly146Arg	146	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Gly146Arg	146	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Glu189Lys	189	pathogenic	Pathogenic/Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Glu189Lys	189	pathogenic	Pathogenic/Likely pathogenic
+NPSR1_HUMAN	NPSR1	HGNC:23631	p.Asn107Ile	107	benign	Benign
+NPSR1_HUMAN	NPSR1	HGNC:23631	p.Asn107Ile	107	benign	Benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser74Ile	74	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser74Ile	74	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser120Arg	120	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser120Arg	120	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg128Cys	128	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg128Cys	128	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asp107Asn	107	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asp107Asn	107	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Cys251Phe	251	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Cys251Phe	251	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg137Trp	137	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg137Trp	137	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Tyr254Cys	254	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Tyr254Cys	254	pathogenic	Pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Met323Ile	323	pathogenic	Pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Met323Ile	323	pathogenic	Pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu148Ser	148	pathogenic	Pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu148Ser	148	pathogenic	Pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu102Pro	102	pathogenic	Pathogenic/Likely pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu102Pro	102	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp36His	36	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp36His	36	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp619Gly	619	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp619Gly	619	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala623Ile	623	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala623Ile	623	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe631Leu	631	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe631Leu	631	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile167Asn	167	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile167Asn	167	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro162Ala	162	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro162Ala	162	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met453Thr	453	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met453Thr	453	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp633His	633	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp633His	633	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg109Gln	109	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg109Gln	109	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe525Leu	525	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe525Leu	525	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys390Trp	390	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys390Trp	390	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala553Thr	553	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala553Thr	553	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser281Ile	281	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser281Ile	281	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val509Ala	509	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val509Ala	509	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys672Tyr	672	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys672Tyr	672	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser505Asn	505	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser505Asn	505	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu629Phe	629	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu629Phe	629	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser281Asn	281	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser281Asn	281	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Lys183Arg	183	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Lys183Arg	183	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro639Ser	639	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro639Ser	639	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr477Ile	477	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr477Ile	477	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gly431Ser	431	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gly431Ser	431	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys600Arg	600	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Cys600Arg	600	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu467Pro	467	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu467Pro	467	pathogenic	Pathogenic
+CCR5_HUMAN	CCR5	HGNC:1606	p.Arg223Gln	223	benign	Benign
+CCR5_HUMAN	CCR5	HGNC:1606	p.Arg223Gln	223	benign	Benign
+CCR5_HUMAN	CCR5	HGNC:1606	p.Ala335Val	335	benign	Benign
+CCR5_HUMAN	CCR5	HGNC:1606	p.Ala335Val	335	benign	Benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Cys203Arg	203	pathogenic	Pathogenic
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Cys203Arg	203	pathogenic	Pathogenic
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Gly338Glu	338	pathogenic	Pathogenic
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Gly338Glu	338	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Cys203Arg	203	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Cys203Arg	203	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Arg330Gln	330	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Arg330Gln	330	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Asn94Lys	94	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Asn94Lys	94	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Trp177Arg	177	pathogenic	Pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Trp177Arg	177	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala132Asp	132	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala132Asp	132	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly185Cys	185	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly185Cys	185	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr205Cys	205	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr205Cys	205	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg203Cys	203	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg203Cys	203	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg113Trp	113	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg113Trp	113	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr280Cys	280	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr280Cys	280	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Asp85Asn	85	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Asp85Asn	85	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly201Asp	201	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly201Asp	201	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137His	137	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137His	137	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg181Cys	181	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg181Cys	181	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Phe105Val	105	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Phe105Val	105	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile46Lys	46	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile46Lys	46	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg104Cys	104	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg104Cys	104	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Cys	137	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Cys	137	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Leu	137	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Leu	137	pathogenic	Pathogenic
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Gly21Val	21	benign	Benign/Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Gly21Val	21	benign	Benign/Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Arg60Leu	60	benign	Benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Arg60Leu	60	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Arg240Trp	240	benign	Benign/Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Arg240Trp	240	benign	Benign/Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23His	23	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23His	23	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Leu	347	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Leu	347	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Ser	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Ser	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr58Arg	58	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr58Arg	58	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr17Met	17	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr17Met	17	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val87Asp	87	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val87Asp	87	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly89Asp	89	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly89Asp	89	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Trp	106	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Trp	106	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Asn	190	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Asn	190	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Leu	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Leu	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr178Cys	178	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr178Cys	178	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Gly	190	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Gly	190	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.His211Pro	211	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.His211Pro	211	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Trp	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Trp	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Glu	296	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Glu	296	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Arg	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Arg	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Ser	182	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Ser	182	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro267Leu	267	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro267Leu	267	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Tyr	110	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Tyr	110	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro53Arg	53	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro53Arg	53	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Arg	106	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Arg	106	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Tyr	190	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Tyr	190	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Ser	15	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Ser	15	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met207Arg	207	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met207Arg	207	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala292Glu	292	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala292Glu	292	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly90Asp	90	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly90Asp	90	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu150Lys	150	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu150Lys	150	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Arg	51	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Arg	51	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly114Asp	114	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly114Asp	114	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala164Glu	164	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala164Glu	164	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Ser	171	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Ser	171	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Leu	345	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Leu	345	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Gln	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Gln	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr94Ile	94	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr94Ile	94	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Ala	23	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Ala	23	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Met	345	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Met	345	pathogenic	Pathogenic/Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Gly93Asp	93	pathogenic	Pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Gly93Asp	93	pathogenic	Pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Pro353Ser	353	pathogenic	Pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Pro353Ser	353	pathogenic	Pathogenic
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val92Met	92	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val92Met	92	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val60Leu	60	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val60Leu	60	benign	Benign/Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser58Cys	58	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser58Cys	58	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile102Ser	102	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile102Ser	102	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile125Lys	125	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile125Lys	125	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Cys271Tyr	271	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Cys271Tyr	271	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile316Ser	316	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile316Ser	316	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asn97Asp	97	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asn97Asp	97	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asn62Ser	62	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asn62Ser	62	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Gly	578	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Gly	578	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met571Ile	571	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met571Ile	571	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys543Arg	543	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys543Arg	543	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala593Pro	593	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala593Pro	593	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Thr577Ile	577	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Thr577Ile	577	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ser616Tyr	616	pathogenic	Pathogenic/Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ser616Tyr	616	pathogenic	Pathogenic/Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met398Thr	398	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met398Thr	398	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys131Arg	131	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys131Arg	131	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala373Val	373	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala373Val	373	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Glu354Lys	354	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Glu354Lys	354	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile625Lys	625	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile625Lys	625	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile542Leu	542	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile542Leu	542	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578His	578	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578His	578	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu368Pro	368	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu368Pro	368	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala568Val	568	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ala568Val	568	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu457Arg	457	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu457Arg	457	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys343Ser	343	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Cys343Ser	343	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu502Pro	502	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu502Pro	502	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val144Phe	144	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val144Phe	144	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp564Gly	564	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp564Gly	564	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Gln106Arg	106	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Gln106Arg	106	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg262Gln	262	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg262Gln	262	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Tyr284Cys	284	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Tyr284Cys	284	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala129Asp	129	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala129Asp	129	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ser217Arg	217	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ser217Arg	217	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ser168Arg	168	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ser168Arg	168	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg139His	139	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg139His	139	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Asn10Lys	10	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Asn10Lys	10	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Glu90Lys	90	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Glu90Lys	90	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala171Thr	171	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala171Thr	171	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Pro320Leu	320	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Pro320Leu	320	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala189Val	189	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala189Val	189	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Arg573Cys	573	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Arg573Cys	573	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala307Thr	307	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala307Thr	307	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser680Asn	680	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser680Asn	680	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala419Thr	419	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala419Thr	419	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr449Ile	449	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr449Ile	449	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Asp567Asn	567	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Asp567Asn	567	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro519Thr	519	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro519Thr	519	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr449Ala	449	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr449Ala	449	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile545Thr	545	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile545Thr	545	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser128Tyr	128	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser128Tyr	128	pathogenic	Pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala183Gly	183	pathogenic	Pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala183Gly	183	pathogenic	Pathogenic
+DRD4_HUMAN	DRD4	HGNC:3025	p.Val194Gly	194	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Val194Gly	194	benign	Benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Gly9Ser	9	benign	Benign/Likely benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Gly9Ser	9	benign	Benign/Likely benign
+CCKAR_HUMAN	CCKAR	HGNC:1570	p.Gly21Arg	21	benign	Benign
+CCKAR_HUMAN	CCKAR	HGNC:1570	p.Gly21Arg	21	benign	Benign
+CCKAR_HUMAN	CCKAR	HGNC:1570	p.Val365Ile	365	benign	Benign
+CCKAR_HUMAN	CCKAR	HGNC:1570	p.Val365Ile	365	benign	Benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Gly42Asp	42	benign	Benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Gly42Asp	42	benign	Benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Trp64Arg	64	benign	Benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Trp64Arg	64	benign	Benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Thr164Ile	164	benign	Benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Thr164Ile	164	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ser49Gly	49	benign	Likely benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ser49Gly	49	benign	Likely benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Thr282Met	282	pathogenic	Pathogenic
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Thr282Met	282	pathogenic	Pathogenic
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Arg89Cys	89	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Arg89Cys	89	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ala126Ser	126	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ala126Ser	126	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro587His	587	pathogenic	Pathogenic/Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro587His	587	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu59Pro	59	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu59Pro	59	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu97Pro	97	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu97Pro	97	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Gly	137	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg137Gly	137	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala285Pro	285	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala285Pro	285	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Asn321Lys	321	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Asn321Lys	321	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Tyr	578	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Tyr	578	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser180Pro	180	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser180Pro	180	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro348Arg	348	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Pro348Arg	348	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala575Val	575	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala575Val	575	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Leu601Val	601	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Leu601Val	601	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Val221Gly	221	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Val221Gly	221	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Asp224Val	224	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Asp224Val	224	pathogenic	Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Tyr256His	256	pathogenic	Pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Tyr256His	256	pathogenic	Pathogenic
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Val215Ile	215	benign	Likely benign
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Val215Ile	215	benign	Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Arg248Lys	248	benign	Benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Arg248Lys	248	benign	Benign
+RGR_HUMAN	RGR	HGNC:9990	p.Ser241Phe	241	benign	Benign/Likely benign
+RGR_HUMAN	RGR	HGNC:9990	p.Ser241Phe	241	benign	Benign/Likely benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Thr281Ile	281	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Thr281Ile	281	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro52Thr	52	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro52Thr	52	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr574Ser	574	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr574Ser	574	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn744Lys	744	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn744Lys	744	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Glu727Asp	727	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Glu727Asp	727	benign	Benign/Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asn291Ser	291	benign	Benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asn291Ser	291	benign	Benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Met131Thr	131	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Met131Thr	131	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Thr269Met	269	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Thr269Met	269	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly188Arg	188	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly188Arg	188	pathogenic	Pathogenic/Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala171Pro	171	pathogenic	Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala171Pro	171	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu117Arg	117	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu117Arg	117	pathogenic	Pathogenic/Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Thr231Ile	231	pathogenic	Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Thr231Ile	231	pathogenic	Likely pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Tyr129Phe	129	pathogenic	Pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Tyr129Phe	129	pathogenic	Pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Glu303Lys	303	pathogenic	Pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Glu303Lys	303	pathogenic	Pathogenic
+GP101_HUMAN	GPR101	HGNC:14963	p.Asp366Glu	366	pathogenic	Pathogenic
+GP101_HUMAN	GPR101	HGNC:14963	p.Asp366Glu	366	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu181Lys	181	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu181Lys	181	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile130Phe	130	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile130Phe	130	pathogenic	Pathogenic
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Lys230Thr	230	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Lys230Thr	230	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg73Cys	73	pathogenic	Likely pathogenic
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg73Cys	73	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile69Arg	69	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile69Arg	69	pathogenic	Pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asp63Val	63	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asp63Val	63	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile251Leu	251	benign	Benign/Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile251Leu	251	benign	Benign/Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Val103Ile	103	benign	Benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Val103Ile	103	benign	Benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Val294Ile	294	benign	Benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Val294Ile	294	benign	Benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Tyr140Cys	140	pathogenic	Pathogenic
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Tyr140Cys	140	pathogenic	Pathogenic
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg108Pro	108	pathogenic	Pathogenic
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg108Pro	108	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg450His	450	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg450His	450	pathogenic	Pathogenic/Likely pathogenic
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Val231Ile	231	benign	Benign/Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Val231Ile	231	benign	Benign/Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asn258Ser	258	benign	Benign/Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asn258Ser	258	benign	Benign/Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Pro372Ala	372	benign	Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Pro372Ala	372	benign	Likely benign
+GPR34_HUMAN	GPR34	HGNC:4490	p.Asn295Ser	295	benign	Benign/Likely benign
+GPR34_HUMAN	GPR34	HGNC:4490	p.Asn295Ser	295	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu131Pro	131	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu131Pro	131	pathogenic	Pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Ala189Thr	189	benign	Benign/Likely benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Ala189Thr	189	benign	Benign/Likely benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Ala410Thr	410	benign	Benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Ala410Thr	410	benign	Benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Lys327Glu	327	benign	Benign/Likely benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Lys327Glu	327	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val122Met	122	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val122Met	122	benign	Benign/Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Gly79Ser	79	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Gly79Ser	79	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ser147Cys	147	benign	Benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ser147Cys	147	benign	Benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asn312Ser	312	benign	Benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asn312Ser	312	benign	Benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Ser311Cys	311	benign	Benign
+DRD2_HUMAN	DRD2	HGNC:3023	p.Ser311Cys	311	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val156Leu	156	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Val156Leu	156	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Arg163Gln	163	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Arg163Gln	163	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly12Glu	12	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly12Glu	12	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala147Val	147	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala147Val	147	benign	Benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Tyr33His	33	pathogenic	Likely pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Tyr33His	33	pathogenic	Likely pathogenic
+GPR68_HUMAN	GPR68	HGNC:4519	p.Leu74Pro	74	pathogenic	Pathogenic
+GPR68_HUMAN	GPR68	HGNC:4519	p.Leu74Pro	74	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Leu	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Leu	135	pathogenic	Pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Arg268Cys	268	benign	Benign/Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Arg268Cys	268	benign	Benign/Likely benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Cys231Ser	231	benign	Likely benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Cys231Ser	231	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Ala	51	benign	Benign/Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Ala	51	benign	Benign/Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Leu91Phe	91	benign	Benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Leu91Phe	91	benign	Benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu337Ser	337	benign	Benign/Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu337Ser	337	benign	Benign/Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Lys126Asn	126	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Lys126Asn	126	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Glu557Lys	557	benign	Benign/Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Glu557Lys	557	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Arg67Gln	67	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Arg67Gln	67	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gly132Arg	132	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gly132Arg	132	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr7Ser	7	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr7Ser	7	benign	Benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Phe278Cys	278	benign	Benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Phe278Cys	278	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe196Leu	196	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe196Leu	196	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala218Thr	218	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala218Thr	218	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Thr33Ile	33	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Thr33Ile	33	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Arg165Gln	165	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Arg165Gln	165	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala42Val	42	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala42Val	42	benign	Benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Val331Met	331	benign	Benign/Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Val331Met	331	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Val215Met	215	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Val215Met	215	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg252Trp	252	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg252Trp	252	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly352Asp	352	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly352Asp	352	benign	Benign/Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Cys271Arg	271	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Cys271Arg	271	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Cys112Phe	112	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Cys112Phe	112	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu88Pro	88	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu88Pro	88	pathogenic	Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala449Thr	449	benign	Benign/Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala449Thr	449	benign	Benign/Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser94Asn	94	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser94Asn	94	pathogenic	Likely pathogenic
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Thr338Ala	338	benign	Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Thr338Ala	338	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Glu346Ala	346	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Glu346Ala	346	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Asn192Lys	192	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Asn192Lys	192	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile11Thr	11	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile11Thr	11	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Val101Leu	101	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Val101Leu	101	benign	Benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ile178Val	178	benign	Benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ile178Val	178	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala166Gly	166	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala166Gly	166	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ile287Met	287	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ile287Met	287	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala164Val	164	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala164Val	164	pathogenic	Pathogenic/Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Trp491Arg	491	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Trp491Arg	491	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Asp138Gly	138	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Asp138Gly	138	pathogenic	Likely pathogenic
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Leu235Met	235	benign	Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Leu235Met	235	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gln90Pro	90	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Gln90Pro	90	pathogenic	Likely pathogenic
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Pro28Ser	28	pathogenic	Likely pathogenic
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Pro28Ser	28	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Glu61Lys	61	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Glu61Lys	61	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln28Arg	28	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln28Arg	28	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro170Arg	170	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro170Arg	170	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Leu225Arg	225	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Leu225Arg	225	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Val142Leu	142	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Val142Leu	142	pathogenic	Pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Lys286Arg	286	benign	Benign/Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Lys286Arg	286	benign	Benign/Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val238Ile	238	benign	Benign/Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val238Ile	238	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg247His	247	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg247His	247	benign	Benign/Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala335Gly	335	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala335Gly	335	benign	Benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu364His	364	benign	Benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Leu364His	364	benign	Benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Thr331Ser	331	benign	Benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Thr331Ser	331	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe45Leu	45	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe45Leu	45	benign	Benign/Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg163His	163	benign	Benign/Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg163His	163	benign	Benign/Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Thr9Met	9	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Thr9Met	9	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Phe194Val	194	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Phe194Val	194	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Trp155Cys	155	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Trp155Cys	155	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg145Cys	145	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg145Cys	145	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg137Pro	137	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg137Pro	137	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Phe280Leu	280	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Phe280Leu	280	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu131Pro	131	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu131Pro	131	pathogenic	Pathogenic/Likely pathogenic
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Ala217Pro	217	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Ala217Pro	217	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Ala153Val	153	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Ala153Val	153	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Glu169Lys	169	benign	Benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Glu169Lys	169	benign	Benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Val286Ala	286	benign	Benign/Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Val286Ala	286	benign	Benign/Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Asn10Lys	10	benign	Benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Asn10Lys	10	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro286Leu	286	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro286Leu	286	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Met1Thr	1	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Met1Thr	1	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+FPR1_HUMAN	FPR1	HGNC:3826	p.Glu346Ala	346	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Glu346Ala	346	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg269His	269	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg269His	269	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Leu97Met	97	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Leu97Met	97	benign	Benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ser184Pro	184	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ser184Pro	184	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Arg265Pro	265	pathogenic	Pathogenic/Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Arg265Pro	265	pathogenic	Pathogenic/Likely pathogenic
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val258Met	258	pathogenic	Pathogenic
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val258Met	258	pathogenic	Pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Val260Phe	260	benign	Benign/Likely benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Val260Phe	260	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr128Ser	128	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Tyr128Ser	128	pathogenic	Pathogenic/Likely pathogenic
+DRD5_HUMAN	DRD5	HGNC:3026	p.Leu88Phe	88	benign	Benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Leu88Phe	88	benign	Benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn73Ser	73	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn73Ser	73	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Thr	180	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Thr	180	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Lys174Glu	174	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Lys174Glu	174	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg146His	146	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Arg146His	146	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Gly	110	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Gly	110	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly89Arg	89	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly89Arg	89	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser270Arg	270	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser270Arg	270	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Leu	345	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Leu	345	pathogenic	Pathogenic
+MSHR_HUMAN	MC1R	HGNC:6929	p.Gly104Ser	104	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Gly104Ser	104	benign	Likely benign
+TRFR_HUMAN	TRHR	HGNC:12299	p.Pro81Arg	81	pathogenic	Likely pathogenic
+TRFR_HUMAN	TRHR	HGNC:12299	p.Pro81Arg	81	pathogenic	Likely pathogenic
+TRFR_HUMAN	TRHR	HGNC:12299	p.Ile131Thr	131	pathogenic	Pathogenic
+TRFR_HUMAN	TRHR	HGNC:12299	p.Ile131Thr	131	pathogenic	Pathogenic
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ala187Val	187	pathogenic	Pathogenic
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ala187Val	187	pathogenic	Pathogenic
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ser47Ile	47	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ser47Ile	47	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Thr95Met	95	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Thr95Met	95	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Asn281Ser	281	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Asn281Ser	281	benign	Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Pro12Arg	12	benign	Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Pro12Arg	12	benign	Likely benign
+V1AR_HUMAN	AVPR1A	HGNC:895	p.Phe308Leu	308	benign	Benign
+V1AR_HUMAN	AVPR1A	HGNC:895	p.Phe308Leu	308	benign	Benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val379Ile	379	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val379Ile	379	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val315Met	315	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val315Met	315	benign	Likely benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Asn69Ser	69	benign	Benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Asn69Ser	69	benign	Benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Asn187Ser	187	benign	Likely benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Asn187Ser	187	benign	Likely benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Ser220Cys	220	benign	Benign
+ADRB2_HUMAN	ADRB2	HGNC:286	p.Ser220Cys	220	benign	Benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asp253Asn	253	benign	Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asp253Asn	253	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Gly18Arg	18	benign	Benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Gly18Arg	18	benign	Benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ser342Leu	342	benign	Benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ser342Leu	342	benign	Benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Val103Ile	103	benign	Benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Val103Ile	103	benign	Benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg259Trp	259	benign	Benign/Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg259Trp	259	benign	Benign/Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val230Ile	230	benign	Benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val230Ile	230	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ala25Thr	25	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ala25Thr	25	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Gly126Arg	126	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Gly126Arg	126	benign	Benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Asp349His	349	benign	Benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Asp349His	349	benign	Benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ala244Ser	244	benign	Benign/Likely benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ala244Ser	244	benign	Benign/Likely benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Glu330Gly	330	benign	Benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Glu330Gly	330	benign	Benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Thr57Ala	57	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Thr57Ala	57	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Asp25Gly	25	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Asp25Gly	25	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Glu13Asp	13	benign	Benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Glu13Asp	13	benign	Benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Tyr291His	291	benign	Benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Tyr291His	291	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Glu339Lys	339	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Glu339Lys	339	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Val172Ala	172	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Val172Ala	172	benign	Benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Met112Val	112	benign	Benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Met112Val	112	benign	Benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Ala172Thr	172	benign	Benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Ala172Thr	172	benign	Benign
+NPY1R_HUMAN	NPY1R	HGNC:7956	p.Lys374Thr	374	benign	Benign
+NPY1R_HUMAN	NPY1R	HGNC:7956	p.Lys374Thr	374	benign	Benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Val148Ala	148	benign	Benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Val148Ala	148	benign	Benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Cys372Tyr	372	benign	Benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Cys372Tyr	372	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ile28Val	28	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ile28Val	28	benign	Benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Met54Ile	54	benign	Benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Met54Ile	54	benign	Benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Tyr99Cys	99	benign	Benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Tyr99Cys	99	benign	Benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Arg310Trp	310	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Arg310Trp	310	benign	Likely benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Ser5Phe	5	benign	Benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Ser5Phe	5	benign	Benign
+NPSR1_HUMAN	NPSR1	HGNC:23631	p.Ser143Gly	143	benign	Benign
+NPSR1_HUMAN	NPSR1	HGNC:23631	p.Ser143Gly	143	benign	Benign
+ADA1A_HUMAN	ADRA1A	HGNC:277	p.Ser154Ala	154	benign	Benign
+ADA1A_HUMAN	ADRA1A	HGNC:277	p.Ser154Ala	154	benign	Benign
+NPY4R_HUMAN	NPY4R	HGNC:9329	p.Cys240Arg	240	benign	Benign
+NPY4R_HUMAN	NPY4R	HGNC:9329	p.Cys240Arg	240	benign	Benign
+NPY4R_HUMAN	NPY4R	HGNC:9329	p.Ala99Ser	99	benign	Benign
+NPY4R_HUMAN	NPY4R	HGNC:9329	p.Ala99Ser	99	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Asp5Gly	5	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Asp5Gly	5	benign	Benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ala193Ser	193	benign	Benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ala193Ser	193	benign	Benign
+RGR_HUMAN	RGR	HGNC:9990	p.Gly84Ser	84	benign	Likely benign
+RGR_HUMAN	RGR	HGNC:9990	p.Gly84Ser	84	benign	Likely benign
+5HT7R_HUMAN	HTR7	HGNC:5302	p.Pro448Arg	448	benign	Benign
+5HT7R_HUMAN	HTR7	HGNC:5302	p.Pro448Arg	448	benign	Benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Leu198Arg	198	benign	Benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Leu198Arg	198	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val142Met	142	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val142Met	142	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Ser150Phe	150	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Ser150Phe	150	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Pro269Leu	269	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Pro269Leu	269	benign	Benign
+HCAR2_HUMAN	HCAR2	HGNC:24827	p.Met317Ile	317	benign	Benign
+HCAR2_HUMAN	HCAR2	HGNC:24827	p.Met317Ile	317	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Pro781Ala	781	benign	Benign/Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Pro781Ala	781	benign	Benign/Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ala620Thr	620	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ala620Thr	620	benign	Likely benign
+5HT2A_HUMAN	HTR2A	HGNC:5293	p.Ala447Val	447	benign	Likely benign
+5HT2A_HUMAN	HTR2A	HGNC:5293	p.Ala447Val	447	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Glu39Gln	39	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Glu39Gln	39	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Phe50Val	50	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Phe50Val	50	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Asn103Ser	103	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Asn103Ser	103	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ser236Leu	236	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ser236Leu	236	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Leu278Ile	278	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Leu278Ile	278	benign	Likely benign
+GPR18_HUMAN	GPR18	HGNC:4472	p.Leu187Met	187	benign	Likely benign
+GPR18_HUMAN	GPR18	HGNC:4472	p.Leu187Met	187	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Ala352Ser	352	benign	Benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Ala352Ser	352	benign	Benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Ala79Ser	79	benign	Benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Ala79Ser	79	benign	Benign
+ACM5_HUMAN	CHRM5	HGNC:1954	p.Glu412Lys	412	benign	Benign
+ACM5_HUMAN	CHRM5	HGNC:1954	p.Glu412Lys	412	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Thr9Met	9	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Thr9Met	9	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Thr333Met	333	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Thr333Met	333	benign	Benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Arg36Gln	36	benign	Benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Arg36Gln	36	benign	Benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Gly226Ser	226	benign	Benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Gly226Ser	226	benign	Benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ala252Thr	252	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ala252Thr	252	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala222Thr	222	benign	Benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala222Thr	222	benign	Benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.His329Arg	329	benign	Benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.His329Arg	329	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Gln275His	275	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Gln275His	275	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Tyr339Cys	339	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Tyr339Cys	339	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Arg388Cys	388	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Arg388Cys	388	benign	Benign
+AA2AR_HUMAN	ADORA2A	HGNC:263	p.Gly147Ser	147	benign	Benign
+AA2AR_HUMAN	ADORA2A	HGNC:263	p.Gly147Ser	147	benign	Benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Leu236Val	236	benign	Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Leu236Val	236	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Met307Val	307	benign	Benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Met307Val	307	benign	Benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Arg45His	45	benign	Benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Arg45His	45	benign	Benign
+S1PR1_HUMAN	S1PR1	HGNC:3165	p.Ala11Asp	11	benign	Benign
+S1PR1_HUMAN	S1PR1	HGNC:3165	p.Ala11Asp	11	benign	Benign
+GPR52_HUMAN	GPR52	HGNC:4508	p.Arg355Trp	355	benign	Benign
+GPR52_HUMAN	GPR52	HGNC:4508	p.Arg355Trp	355	benign	Benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg337His	337	benign	Benign/Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg337His	337	benign	Benign/Likely benign
+5HT1D_HUMAN	HTR1D	HGNC:5289	p.Ser265Leu	265	benign	Benign
+5HT1D_HUMAN	HTR1D	HGNC:5289	p.Ser265Leu	265	benign	Benign
+CNR2_HUMAN	CNR2	HGNC:2160	p.Arg66Gln	66	benign	Benign
+CNR2_HUMAN	CNR2	HGNC:2160	p.Arg66Gln	66	benign	Benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Leu431Pro	431	benign	Benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Leu431Pro	431	benign	Benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Ala274Thr	274	benign	Benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Ala274Thr	274	benign	Benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Arg279Gln	279	benign	Benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Arg279Gln	279	benign	Benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Gly347Asp	347	benign	Benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Gly347Asp	347	benign	Benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg73His	73	benign	Benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg73His	73	benign	Benign
+LPAR3_HUMAN	LPAR3	HGNC:14298	p.Val288Met	288	benign	Benign
+LPAR3_HUMAN	LPAR3	HGNC:14298	p.Val288Met	288	benign	Benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg282Lys	282	benign	Benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg282Lys	282	benign	Benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Thr27Met	27	benign	Benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Thr27Met	27	benign	Benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Asn212Ser	212	benign	Benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Asn212Ser	212	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Met421Val	421	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Met421Val	421	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Gly51Glu	51	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Gly51Glu	51	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Trp31Arg	31	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Trp31Arg	31	benign	Benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg179Cys	179	benign	Benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg179Cys	179	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Leu27Ser	27	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Leu27Ser	27	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Val29Ile	29	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Val29Ile	29	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Arg56Cys	56	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Arg56Cys	56	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Val76Met	76	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Val76Met	76	benign	Benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala329Val	329	benign	Benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala329Val	329	benign	Benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Thr295Pro	295	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Thr295Pro	295	benign	Likely benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Lys19Asn	19	benign	Benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Lys19Asn	19	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Leu206Val	206	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Leu206Val	206	benign	Benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Ile212Thr	212	benign	Benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Ile212Thr	212	benign	Benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Asn73Asp	73	benign	Benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Asn73Asp	73	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Gly273Asp	273	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Gly273Asp	273	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ala155Gly	155	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ala155Gly	155	benign	Likely benign
+PAR1_HUMAN	F2R	HGNC:3537	p.Tyr381Cys	381	benign	Benign
+PAR1_HUMAN	F2R	HGNC:3537	p.Tyr381Cys	381	benign	Benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Ser153Asn	153	benign	Benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Ser153Asn	153	benign	Benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Arg330Cys	330	benign	Benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Arg330Cys	330	benign	Benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Thr272Met	272	benign	Benign/Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Thr272Met	272	benign	Benign/Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Arg319Cys	319	benign	Benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Arg319Cys	319	benign	Benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Asp374Asn	374	benign	Benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Asp374Asn	374	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ala270Thr	270	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Ala270Thr	270	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Thr251Ala	251	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Thr251Ala	251	benign	Benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Gly444Asp	444	benign	Benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Gly444Asp	444	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val124Ile	124	benign	Benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val124Ile	124	benign	Benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Arg55Leu	55	benign	Benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Arg55Leu	55	benign	Benign
+APJ_HUMAN	APLNR	HGNC:339	p.Val300Ile	300	benign	Benign
+APJ_HUMAN	APLNR	HGNC:339	p.Val300Ile	300	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly11Arg	11	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly11Arg	11	benign	Benign
+GPR83_HUMAN	GPR83	HGNC:4523	p.Asp218Glu	218	benign	Benign
+GPR83_HUMAN	GPR83	HGNC:4523	p.Asp218Glu	218	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.His383Arg	383	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.His383Arg	383	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.His242Gln	242	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.His242Gln	242	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Arg315Lys	315	benign	Benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Arg315Lys	315	benign	Benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Arg7Cys	7	benign	Benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Arg7Cys	7	benign	Benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Gly354Glu	354	benign	Benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Gly354Glu	354	benign	Benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Val310Leu	310	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Val310Leu	310	benign	Likely benign
+AA2BR_HUMAN	ADORA2B	HGNC:264	p.Ala35Val	35	benign	Benign
+AA2BR_HUMAN	ADORA2B	HGNC:264	p.Ala35Val	35	benign	Benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Trp249Leu	249	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Trp249Leu	249	benign	Likely benign
+UR2R_HUMAN	UTS2R	HGNC:4468	p.Val121Leu	121	benign	Benign
+UR2R_HUMAN	UTS2R	HGNC:4468	p.Val121Leu	121	benign	Benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Val5Ile	5	benign	Benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Val5Ile	5	benign	Benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Asp340Gly	340	benign	Benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Asp340Gly	340	benign	Benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Leu308His	308	benign	Benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Leu308His	308	benign	Benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.Ile46Val	46	benign	Benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.Ile46Val	46	benign	Benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Val217Ile	217	benign	Benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Val217Ile	217	benign	Benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ser319Trp	319	benign	Benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ser319Trp	319	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile203Val	203	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile203Val	203	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg123His	123	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg123His	123	benign	Likely benign
+FPR2_HUMAN	FPR2	HGNC:3827	p.Phe74Leu	74	benign	Benign/Likely benign
+FPR2_HUMAN	FPR2	HGNC:3827	p.Phe74Leu	74	benign	Benign/Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Ser309Leu	309	benign	Benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Ser309Leu	309	benign	Benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Val220Ile	220	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Val220Ile	220	benign	Likely benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Arg318His	318	benign	Benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Arg318His	318	benign	Benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Gly228Val	228	benign	Benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Gly228Val	228	benign	Benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Thr439Met	439	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Thr439Met	439	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Ala845Thr	845	benign	Benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Ala845Thr	845	benign	Benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Trp187Arg	187	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Trp187Arg	187	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Gln8Leu	8	benign	Benign/Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Gln8Leu	8	benign	Benign/Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Leu218Ser	218	benign	Benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Leu218Ser	218	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ala241Thr	241	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ala241Thr	241	benign	Benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Phe211Leu	211	benign	Benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Phe211Leu	211	benign	Benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Gln296Arg	296	benign	Benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Gln296Arg	296	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Val208Leu	208	benign	Benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Val208Leu	208	benign	Benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val64Leu	64	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val64Leu	64	benign	Likely benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Arg326Gln	326	benign	Benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Arg326Gln	326	benign	Benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ala163Thr	163	benign	Likely benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ala163Thr	163	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Ala159Val	159	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Ala159Val	159	benign	Likely benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Arg345Gln	345	benign	Likely benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Arg345Gln	345	benign	Likely benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Ala157Val	157	benign	Benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Ala157Val	157	benign	Benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Gly15Arg	15	benign	Likely benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Gly15Arg	15	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Pro16Leu	16	benign	Benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Pro16Leu	16	benign	Benign
+TAAR1_HUMAN	TAAR1	HGNC:17734	p.Arg23Cys	23	benign	Benign
+TAAR1_HUMAN	TAAR1	HGNC:17734	p.Arg23Cys	23	benign	Benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ala369Val	369	benign	Benign/Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ala369Val	369	benign	Benign/Likely benign
+TRFR_HUMAN	TRHR	HGNC:12299	p.Val356Ile	356	benign	Likely benign
+TRFR_HUMAN	TRHR	HGNC:12299	p.Val356Ile	356	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Arg353Cys	353	benign	Benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Arg353Cys	353	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Val5Ala	5	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Val5Ala	5	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Arg323His	323	benign	Benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Arg323His	323	benign	Benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Arg196Leu	196	benign	Benign/Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Arg196Leu	196	benign	Benign/Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Gln257Arg	257	benign	Benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Gln257Arg	257	benign	Benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Arg75Gly	75	benign	Benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Arg75Gly	75	benign	Benign
+CML1_HUMAN	CMKLR1	HGNC:2121	p.Met289Ile	289	benign	Benign
+CML1_HUMAN	CMKLR1	HGNC:2121	p.Met289Ile	289	benign	Benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Val168Ile	168	benign	Benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Val168Ile	168	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.His218Arg	218	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.His218Arg	218	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Leu424Val	424	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Leu424Val	424	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Asp428Asn	428	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Asp428Asn	428	benign	Benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Val47Gly	47	benign	Benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Val47Gly	47	benign	Benign
+LT4R2_HUMAN	LTB4R2	HGNC:19260	p.Pro130Ser	130	benign	Benign
+LT4R2_HUMAN	LTB4R2	HGNC:19260	p.Pro130Ser	130	benign	Benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Cys83Gly	83	benign	Benign/Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Cys83Gly	83	benign	Benign/Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Tyr285Cys	285	benign	Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Tyr285Cys	285	benign	Likely benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Thr3Met	3	benign	Benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Thr3Met	3	benign	Benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Arg285Trp	285	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Arg285Trp	285	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Glu336Ala	336	benign	Benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Glu336Ala	336	benign	Benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Leu299Val	299	benign	Benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Leu299Val	299	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Thr58Ile	58	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Thr58Ile	58	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Ala72Val	72	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Ala72Val	72	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Phe341Leu	341	benign	Benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Phe341Leu	341	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val409Met	409	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val409Met	409	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg64Trp	64	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg64Trp	64	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg68Gln	68	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg68Gln	68	benign	Benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Leu14Phe	14	benign	Benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Leu14Phe	14	benign	Benign
+LPAR4_HUMAN	LPAR4	HGNC:4478	p.Val45Ile	45	benign	Likely benign
+LPAR4_HUMAN	LPAR4	HGNC:4478	p.Val45Ile	45	benign	Likely benign
+LPAR4_HUMAN	LPAR4	HGNC:4478	p.Leu54Met	54	benign	Benign
+LPAR4_HUMAN	LPAR4	HGNC:4478	p.Leu54Met	54	benign	Benign
+MAS_HUMAN	MAS1	HGNC:6899	p.Tyr252Cys	252	benign	Likely benign
+MAS_HUMAN	MAS1	HGNC:6899	p.Tyr252Cys	252	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg684Gly	684	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg684Gly	684	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Ala750Thr	750	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Ala750Thr	750	benign	Benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Arg279Cys	279	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Arg279Cys	279	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Asn169Asp	169	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Asn169Asp	169	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val208Ile	208	benign	Benign/Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val208Ile	208	benign	Benign/Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Gly70Ala	70	benign	Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Gly70Ala	70	benign	Likely benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Met14Ile	14	benign	Benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Met14Ile	14	benign	Benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Val65Ile	65	benign	Likely benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Val65Ile	65	benign	Likely benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Pro301Leu	301	benign	Benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Pro301Leu	301	benign	Benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Ala290Thr	290	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Ala290Thr	290	benign	Likely benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Tyr22His	22	benign	Likely benign
+NPY2R_HUMAN	NPY2R	HGNC:7957	p.Tyr22His	22	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Glu306Lys	306	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Glu306Lys	306	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ser182Leu	182	benign	Benign/Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ser182Leu	182	benign	Benign/Likely benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Gly149Val	149	benign	Benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Gly149Val	149	benign	Benign
+TAAR1_HUMAN	TAAR1	HGNC:17734	p.Thr252Ala	252	benign	Benign
+TAAR1_HUMAN	TAAR1	HGNC:17734	p.Thr252Ala	252	benign	Benign
+5HT1E_HUMAN	HTR1E	HGNC:5291	p.Pro267His	267	benign	Likely benign
+5HT1E_HUMAN	HTR1E	HGNC:5291	p.Pro267His	267	benign	Likely benign
+TRFR_HUMAN	TRHR	HGNC:12299	p.Ile127Val	127	benign	Likely benign
+TRFR_HUMAN	TRHR	HGNC:12299	p.Ile127Val	127	benign	Likely benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Lys200Glu	200	benign	Benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Lys200Glu	200	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Gly389Val	389	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Gly389Val	389	benign	Benign
+APJ_HUMAN	APLNR	HGNC:339	p.Val53Met	53	benign	Likely benign
+APJ_HUMAN	APLNR	HGNC:339	p.Val53Met	53	benign	Likely benign
+GASR_HUMAN	CCKBR	HGNC:1571	p.Leu37Phe	37	benign	Benign
+GASR_HUMAN	CCKBR	HGNC:1571	p.Leu37Phe	37	benign	Benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Ser435Leu	435	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Ser435Leu	435	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Val136Ala	136	benign	Benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Val136Ala	136	benign	Benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Lys330Asn	330	benign	Likely benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Lys330Asn	330	benign	Likely benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Arg276Trp	276	benign	Likely benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Arg276Trp	276	benign	Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Tyr231His	231	benign	Benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Tyr231His	231	benign	Benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Cys6Ser	6	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Cys6Ser	6	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg253Ser	253	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg253Ser	253	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Gly112Ala	112	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Gly112Ala	112	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Thr67Met	67	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Thr67Met	67	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Leu281Phe	281	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Leu281Phe	281	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Asp42His	42	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Asp42His	42	benign	Likely benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Asp382Gly	382	benign	Benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Asp382Gly	382	benign	Benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Thr132Ile	132	benign	Benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Thr132Ile	132	benign	Benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ala7Val	7	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ala7Val	7	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Asp171Asn	171	benign	Benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Asp171Asn	171	benign	Benign
+P2RY8_HUMAN	P2RY8	HGNC:15524	p.Pro290Arg	290	pathogenic	Likely pathogenic
+P2RY8_HUMAN	P2RY8	HGNC:15524	p.Pro290Arg	290	pathogenic	Likely pathogenic
+P2RY8_HUMAN	P2RY8	HGNC:15524	p.Pro290Arg	290	pathogenic	Likely pathogenic
+P2RY8_HUMAN	P2RY8	HGNC:15524	p.Pro290Arg	290	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Lys	15	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Lys	15	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Val	106	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Val	106	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser186Trp	186	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser186Trp	186	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Ala	345	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Ala	345	pathogenic	Pathogenic/Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Tyr120Asp	120	benign	Benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Tyr120Asp	120	benign	Benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ile118Met	118	benign	Benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ile118Met	118	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr477Pro	477	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr477Pro	477	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Met272Ile	272	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Met272Ile	272	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile575Leu	575	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Ile575Leu	575	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly188Glu	188	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly188Glu	188	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala166Val	166	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala166Val	166	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Tyr	187	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Tyr	187	pathogenic	Pathogenic/Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile374Asn	374	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile374Asn	374	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr191Asn	191	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr191Asn	191	pathogenic	Likely pathogenic
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Cys192Phe	192	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Cys192Phe	192	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Leu	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Leu	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser176Phe	176	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser176Phe	176	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Ser	180	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Ser	180	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro267Thr	267	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro267Thr	267	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ser167Leu	167	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ser167Leu	167	pathogenic	Pathogenic
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg190Trp	190	benign	Benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Arg190Trp	190	benign	Benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Val	51	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly51Val	51	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly109Arg	109	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly109Arg	109	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Arg	110	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Arg	110	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly114Val	114	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly114Val	114	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Gln	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Gln	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr178His	178	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Tyr178His	178	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Ala	180	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Ala	180	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln184Arg	184	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln184Arg	184	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Phe	187	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Phe	187	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met216Lys	216	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met216Lys	216	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met216Arg	216	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met216Arg	216	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Glu	345	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Glu	345	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Ile	15	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Ile	15	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu46Arg	46	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu46Arg	46	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys167Trp	167	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys167Trp	167	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.His211Arg	211	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.His211Arg	211	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro215Leu	215	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro215Leu	215	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519His	519	pathogenic	Pathogenic/Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519His	519	pathogenic	Pathogenic/Likely pathogenic
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala81Pro	81	benign	Benign/Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Ala81Pro	81	benign	Benign/Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Thr169Met	169	benign	Likely benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Thr169Met	169	benign	Likely benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Ala38Thr	38	benign	Likely benign
+DRD3_HUMAN	DRD3	HGNC:3024	p.Ala38Thr	38	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg104His	104	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg104His	104	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg106His	106	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg106His	106	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg139His	139	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg139His	139	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly257Ser	257	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly257Ser	257	benign	Benign/Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile654Phe	654	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile654Phe	654	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.His428Gln	428	benign	Likely benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.His428Gln	428	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Pro308Leu	308	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Pro308Leu	308	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile301Thr	301	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile301Thr	301	pathogenic	Pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Tyr7His	7	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Tyr7His	7	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Arg	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro171Arg	171	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Arg	106	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Arg	106	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala173Thr	173	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala173Thr	173	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Glu	190	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Glu	190	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Asn	296	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Asn	296	pathogenic	Pathogenic
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Gly118Arg	118	pathogenic	Pathogenic
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Gly118Arg	118	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ser171Arg	171	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ser171Arg	171	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro260Gln	260	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro260Gln	260	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Gly181Asp	181	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Gly181Asp	181	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser136Phe	136	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser136Phe	136	pathogenic	Pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Arg237Pro	237	pathogenic	Likely pathogenic
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Arg237Pro	237	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Ser	23	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Ser	23	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr17Lys	17	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr17Lys	17	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met39Arg	39	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met39Arg	39	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn55Lys	55	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn55Lys	55	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly121Val	121	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly121Val	121	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Leu	180	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Leu	180	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Glu	182	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Glu	182	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys185Arg	185	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys185Arg	185	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Arg	187	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys187Arg	187	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Gln	296	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Gln	296	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Gly446Ser	446	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Gly446Ser	446	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Arg122His	122	benign	Benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Arg122His	122	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala621Val	621	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala621Val	621	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala462Pro	462	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala462Pro	462	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Met272Val	272	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Met272Val	272	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Asp	182	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Asp	182	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Trp488Arg	488	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Trp488Arg	488	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Arg	180	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro180Arg	180	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Lys	15	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn15Lys	15	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Leu	23	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Leu	23	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Val	182	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly182Val	182	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Thr	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Thr	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val230Ile	230	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Val230Ile	230	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Asn185Asp	185	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Asn185Asp	185	benign	Likely benign
+ACM1_HUMAN	CHRM1	HGNC:1950	p.Phe425Ser	425	pathogenic	Likely pathogenic
+ACM1_HUMAN	CHRM1	HGNC:1950	p.Phe425Ser	425	pathogenic	Likely pathogenic
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg141Cys	141	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg141Cys	141	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg301Trp	301	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg301Trp	301	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile147Phe	147	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ile147Phe	147	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg236Cys	236	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg236Cys	236	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg248Gln	248	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg248Gln	248	benign	Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Val562Met	562	benign	Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Val562Met	562	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Val157Ile	157	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Val157Ile	157	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg101Gly	101	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg101Gly	101	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Val103Ala	103	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Val103Ala	103	benign	Likely benign
+GPR88_HUMAN	GPR88	HGNC:4539	p.Val190Ile	190	benign	Benign
+GPR88_HUMAN	GPR88	HGNC:4539	p.Val190Ile	190	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg80Cys	80	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg80Cys	80	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Ile299Val	299	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Ile299Val	299	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Val161Ile	161	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Val161Ile	161	benign	Benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala174Val	174	benign	Benign/Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala174Val	174	benign	Benign/Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala120Thr	120	benign	Benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala120Thr	120	benign	Benign
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Arg164Gln	164	pathogenic	Likely pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Arg164Gln	164	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser256Phe	256	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser256Phe	256	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Val49Met	49	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Val49Met	49	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg202Cys	202	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg202Cys	202	pathogenic	Pathogenic/Likely pathogenic
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly268Cys	268	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly268Cys	268	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Pro297Ala	297	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Pro297Ala	297	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Trp297Arg	297	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Trp297Arg	297	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Arg60Trp	60	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Arg60Trp	60	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg307Trp	307	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg307Trp	307	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro215Ala	215	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro215Ala	215	pathogenic	Likely pathogenic
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala218Thr	218	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala218Thr	218	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Leu48Met	48	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Leu48Met	48	benign	Benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Val44Ile	44	benign	Benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Val44Ile	44	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Thr108Met	108	benign	Benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Thr108Met	108	benign	Benign
+CML2_HUMAN	CMKLR2	HGNC:4463	p.Ile307Val	307	benign	Benign
+CML2_HUMAN	CMKLR2	HGNC:4463	p.Ile307Val	307	benign	Benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Pro16Leu	16	benign	Benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Pro16Leu	16	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Pro335Leu	335	benign	Benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Pro335Leu	335	benign	Benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Leu390Met	390	benign	Benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Leu390Met	390	benign	Benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Glu466Lys	466	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Glu466Lys	466	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser295Phe	295	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser295Phe	295	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile588Thr	588	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ile588Thr	588	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr228Ile	228	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Thr228Ile	228	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Leu125Arg	125	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Leu125Arg	125	pathogenic	Likely pathogenic
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ile604Val	604	benign	Benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ile604Val	604	benign	Benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Met153Leu	153	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Met153Leu	153	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ile65Thr	65	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ile65Thr	65	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala180Ser	180	benign	Benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala180Ser	180	benign	Benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln28His	28	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gln28His	28	pathogenic	Pathogenic
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Gly34Arg	34	benign	Benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Gly34Arg	34	benign	Benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Arg220Ser	220	benign	Benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Arg220Ser	220	benign	Benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val111Ile	111	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val111Ile	111	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Arg165Trp	165	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Arg165Trp	165	pathogenic	Pathogenic/Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Gly226Arg	226	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Gly226Arg	226	pathogenic	Likely pathogenic
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Ile65Thr	65	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Ile65Thr	65	benign	Likely benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Cys279Tyr	279	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Cys279Tyr	279	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asp90Asn	90	pathogenic	Pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Asp90Asn	90	pathogenic	Pathogenic
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Arg220Leu	220	benign	Benign/Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Arg220Leu	220	benign	Benign/Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Gly363Cys	363	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Gly363Cys	363	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Ile96Val	96	pathogenic	Pathogenic
+LGR4_HUMAN	LGR4	HGNC:13299	p.Ile96Val	96	pathogenic	Pathogenic
+LGR4_HUMAN	LGR4	HGNC:13299	p.Asp844Gly	844	pathogenic	Pathogenic
+LGR4_HUMAN	LGR4	HGNC:13299	p.Asp844Gly	844	pathogenic	Pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Glu231Lys	231	pathogenic	Likely pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Glu231Lys	231	pathogenic	Likely pathogenic
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Val171Met	171	benign	Benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Val171Met	171	benign	Benign
+ADA2A_HUMAN	ADRA2A	HGNC:281	p.Glu155Lys	155	benign	Likely benign
+ADA2A_HUMAN	ADRA2A	HGNC:281	p.Glu155Lys	155	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Leu86Phe	86	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Leu86Phe	86	pathogenic	Likely pathogenic
+GHSR_HUMAN	GHSR	HGNC:4267	p.Val182Ala	182	pathogenic	Likely pathogenic
+GHSR_HUMAN	GHSR	HGNC:4267	p.Val182Ala	182	pathogenic	Likely pathogenic
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg208Gln	208	pathogenic	Likely pathogenic
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Arg208Gln	208	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Trp161Arg	161	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Trp161Arg	161	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu266Arg	266	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu266Arg	266	pathogenic	Pathogenic/Likely pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Asp187Gly	187	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Asp187Gly	187	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu59His	59	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu59His	59	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu84Pro	84	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu84Pro	84	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu113Lys	113	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu113Lys	113	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Gly	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Gly	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Pro	135	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Arg135Pro	135	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Val134Gly	134	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Val134Gly	134	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp564Val	564	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp564Val	564	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met571Ile	571	pathogenic	Pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Met571Ile	571	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Ala	106	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly106Ala	106	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn78Tyr	78	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn78Tyr	78	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met44Thr	44	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met44Thr	44	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn55Lys	55	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asn55Lys	55	pathogenic	Pathogenic
+GHSR_HUMAN	GHSR	HGNC:4267	p.Ile134Thr	134	benign	Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Ile134Thr	134	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Ala316Thr	316	benign	Benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Ala316Thr	316	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Gln308Arg	308	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Gln308Arg	308	benign	Likely benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Pro196His	196	benign	Likely benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Pro196His	196	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala299Ser	299	benign	Benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala299Ser	299	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ala195Asp	195	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ala195Asp	195	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Thr293Ile	293	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Thr293Ile	293	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Pro432Ser	432	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Pro432Ser	432	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Leu376Pro	376	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Leu376Pro	376	benign	Benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Thr187Met	187	benign	Likely benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Thr187Met	187	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.His332Arg	332	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.His332Arg	332	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala333Val	333	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala333Val	333	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg58Cys	58	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Arg58Cys	58	benign	Likely benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Leu312Phe	312	benign	Benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Leu312Phe	312	benign	Benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Met6Arg	6	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Met6Arg	6	benign	Likely benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Ala163Thr	163	benign	Benign
+GPR45_HUMAN	GPR45	HGNC:4503	p.Ala163Thr	163	benign	Benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Gly138Ser	138	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Gly138Ser	138	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Val65Ile	65	benign	Benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Val65Ile	65	benign	Benign
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Ile86Val	86	benign	Benign
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Ile86Val	86	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val124Leu	124	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Val124Leu	124	benign	Benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg139Cys	139	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg139Cys	139	pathogenic	Pathogenic
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Cys183Tyr	183	pathogenic	Likely pathogenic
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Cys183Tyr	183	pathogenic	Likely pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Ser420Thr	420	benign	Benign
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Ser420Thr	420	benign	Benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Met1Val	1	pathogenic	Pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Met1Val	1	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly284Asp	284	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Gly284Asp	284	pathogenic	Likely pathogenic
+MC3R_HUMAN	MC3R	HGNC:6931	p.Val51Leu	51	benign	Likely benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Val51Leu	51	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Gln43Lys	43	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Gln43Lys	43	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Met91Arg	91	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Met91Arg	91	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro322Thr	322	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro322Thr	322	pathogenic	Likely pathogenic
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Lys334Gln	334	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Lys334Gln	334	benign	Likely benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Pro282Leu	282	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Pro282Leu	282	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro322Leu	322	pathogenic	Pathogenic/Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro322Leu	322	pathogenic	Pathogenic/Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Lys422Glu	422	benign	Likely benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Lys422Glu	422	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.His80Tyr	80	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.His80Tyr	80	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg262Trp	262	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg262Trp	262	pathogenic	Pathogenic/Likely pathogenic
+GHSR_HUMAN	GHSR	HGNC:4267	p.Glu33Lys	33	benign	Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Glu33Lys	33	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Ser296Gly	296	benign	Benign/Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Ser296Gly	296	benign	Benign/Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu125Arg	125	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu125Arg	125	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Ala	347	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro347Ala	347	pathogenic	Pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val99Met	99	benign	Benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val99Met	99	benign	Benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val393Gly	393	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Val393Gly	393	pathogenic	Likely pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Tyr103His	103	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Tyr103His	103	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu131Arg	131	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu131Arg	131	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Thr127Ile	127	benign	Benign/Likely benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Thr127Ile	127	benign	Benign/Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Trp	110	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Trp	110	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ser283Tyr	283	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ser283Tyr	283	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Phe66Leu	66	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Phe66Leu	66	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala223Thr	223	benign	Benign/Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala223Thr	223	benign	Benign/Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Leu396Met	396	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Leu396Met	396	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala305Val	305	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala305Val	305	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ala142Thr	142	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ala142Thr	142	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val62Ile	62	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val62Ile	62	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Val68Ile	68	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Val68Ile	68	benign	Likely benign
+NMUR2_HUMAN	NMUR2	HGNC:16454	p.Glu368Gln	368	benign	Likely benign
+NMUR2_HUMAN	NMUR2	HGNC:16454	p.Glu368Gln	368	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Arg382His	382	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Arg382His	382	benign	Likely benign
+RXFP1_HUMAN	RXFP1	HGNC:19718	p.Gly98Ser	98	benign	Likely benign
+RXFP1_HUMAN	RXFP1	HGNC:19718	p.Gly98Ser	98	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Val45Ile	45	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Val45Ile	45	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Thr60Ile	60	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Thr60Ile	60	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Ala97Val	97	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Ala97Val	97	benign	Likely benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Gly461Ser	461	benign	Likely benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Gly461Ser	461	benign	Likely benign
+CCR4_HUMAN	CCR4	HGNC:1605	p.Ile260Val	260	benign	Likely benign
+CCR4_HUMAN	CCR4	HGNC:1605	p.Ile260Val	260	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.Glu227Lys	227	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.Glu227Lys	227	benign	Likely benign
+PRLHR_HUMAN	PRLHR	HGNC:4464	p.Val196Met	196	benign	Likely benign
+PRLHR_HUMAN	PRLHR	HGNC:4464	p.Val196Met	196	benign	Likely benign
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Ala109Thr	109	benign	Likely benign
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Ala109Thr	109	benign	Likely benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Pro332Leu	332	benign	Likely benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Pro332Leu	332	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Arg342Gln	342	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Arg342Gln	342	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val320Ile	320	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val320Ile	320	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala124Thr	124	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala124Thr	124	benign	Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asp220Glu	220	benign	Likely benign
+ACM2_HUMAN	CHRM2	HGNC:1951	p.Asp220Glu	220	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Asp444Asn	444	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Asp444Asn	444	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Val389Ala	389	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Val389Ala	389	benign	Likely benign
+TAAR9_HUMAN	TAAR9	HGNC:20977	p.Met264Val	264	benign	Likely benign
+TAAR9_HUMAN	TAAR9	HGNC:20977	p.Met264Val	264	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Arg66Gln	66	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Arg66Gln	66	benign	Likely benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Ser329Gly	329	benign	Likely benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Ser329Gly	329	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Arg124His	124	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Arg124His	124	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asn13Asp	13	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asn13Asp	13	benign	Likely benign
+CCR2_HUMAN	CCR2	HGNC:1603	p.Val219Ile	219	benign	Likely benign
+CCR2_HUMAN	CCR2	HGNC:1603	p.Val219Ile	219	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Thr298Pro	298	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Thr298Pro	298	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Val132Ile	132	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Val132Ile	132	benign	Likely benign
+GPR65_HUMAN	GPR65	HGNC:4517	p.Ile194Val	194	benign	Likely benign
+GPR65_HUMAN	GPR65	HGNC:4517	p.Ile194Val	194	benign	Likely benign
+SUCR1_HUMAN	SUCNR1	HGNC:4542	p.Ile123Leu	123	benign	Likely benign
+SUCR1_HUMAN	SUCNR1	HGNC:4542	p.Ile123Leu	123	benign	Likely benign
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Asp307Asn	307	benign	Likely benign
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Asp307Asn	307	benign	Likely benign
+TAAR2_HUMAN	TAAR2	HGNC:4514	p.Ser39Pro	39	benign	Likely benign
+TAAR2_HUMAN	TAAR2	HGNC:4514	p.Ser39Pro	39	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Ser99Asn	99	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Ser99Asn	99	benign	Likely benign
+GP149_HUMAN	GPR149	HGNC:23627	p.Gly497Glu	497	benign	Likely benign
+GP149_HUMAN	GPR149	HGNC:23627	p.Gly497Glu	497	benign	Likely benign
+PE2R3_HUMAN	PTGER3	HGNC:9595	p.Thr22Pro	22	benign	Likely benign
+PE2R3_HUMAN	PTGER3	HGNC:9595	p.Thr22Pro	22	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Met305Val	305	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Met305Val	305	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Val66Met	66	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Val66Met	66	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Arg303Gln	303	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Arg303Gln	303	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg294His	294	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Arg294His	294	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Thr218Ala	218	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Thr218Ala	218	benign	Likely benign
+HRH2_HUMAN	HRH2	HGNC:5183	p.Asn309Ser	309	benign	Likely benign
+HRH2_HUMAN	HRH2	HGNC:5183	p.Asn309Ser	309	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Thr34Ser	34	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Thr34Ser	34	benign	Likely benign
+GP183_HUMAN	GPR183	HGNC:3128	p.Ser358Leu	358	benign	Likely benign
+GP183_HUMAN	GPR183	HGNC:3128	p.Ser358Leu	358	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.His29Gln	29	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.His29Gln	29	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Ile227Val	227	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Ile227Val	227	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Asp293Asn	293	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Asp293Asn	293	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Val103Met	103	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Val103Met	103	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Arg353Cys	353	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Arg353Cys	353	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Pro16Leu	16	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Pro16Leu	16	benign	Likely benign
+HRH2_HUMAN	HRH2	HGNC:5183	p.Ile137Val	137	benign	Likely benign
+HRH2_HUMAN	HRH2	HGNC:5183	p.Ile137Val	137	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Gln9His	9	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Gln9His	9	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Ser435Thr	435	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Ser435Thr	435	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Ala363Ser	363	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Ala363Ser	363	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Gly138Arg	138	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Gly138Arg	138	benign	Likely benign
+MRGRE_HUMAN	MRGPRE	HGNC:30694	p.Cys174Tyr	174	benign	Likely benign
+MRGRE_HUMAN	MRGPRE	HGNC:30694	p.Cys174Tyr	174	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Thr7Ile	7	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Thr7Ile	7	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Thr200Ser	200	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Thr200Ser	200	benign	Likely benign
+BRS3_HUMAN	BRS3	HGNC:1113	p.Glu354Asp	354	benign	Likely benign
+BRS3_HUMAN	BRS3	HGNC:1113	p.Glu354Asp	354	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg38Gln	38	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg38Gln	38	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Gln206Arg	206	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Gln206Arg	206	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg887Gln	887	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg887Gln	887	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Met153Leu	153	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Met153Leu	153	benign	Likely benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Val270Ile	270	benign	Likely benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Val270Ile	270	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Val152Ile	152	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Val152Ile	152	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Ala196Thr	196	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Ala196Thr	196	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Ala182Val	182	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Ala182Val	182	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Ala14Thr	14	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Ala14Thr	14	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Cys188Phe	188	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Cys188Phe	188	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Met107Thr	107	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Met107Thr	107	benign	Likely benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Gly130Ser	130	benign	Likely benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Gly130Ser	130	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Ala324Val	324	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Ala324Val	324	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Arg19Leu	19	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Arg19Leu	19	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Arg282Gln	282	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Arg282Gln	282	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala301Val	301	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala301Val	301	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val123Ile	123	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val123Ile	123	benign	Likely benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Val345Ile	345	benign	Likely benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Val345Ile	345	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ala23Thr	23	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ala23Thr	23	benign	Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ser465Pro	465	benign	Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ser465Pro	465	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Val135Ile	135	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Val135Ile	135	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala90Thr	90	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala90Thr	90	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Phe438Ser	438	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Phe438Ser	438	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Val121Ile	121	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Val121Ile	121	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Asn322Ser	322	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Asn322Ser	322	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Ser310Cys	310	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Ser310Cys	310	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg311Trp	311	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Arg311Trp	311	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Thr76Met	76	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Thr76Met	76	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Arg40His	40	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Arg40His	40	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Met63Val	63	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Met63Val	63	benign	Likely benign
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Thr100Ala	100	benign	Likely benign
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Thr100Ala	100	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Glu305Gly	305	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Glu305Gly	305	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asp281Asn	281	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asp281Asn	281	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Arg194His	194	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Arg194His	194	benign	Likely benign
+ACM5_HUMAN	CHRM5	HGNC:1954	p.Ala292Thr	292	benign	Likely benign
+ACM5_HUMAN	CHRM5	HGNC:1954	p.Ala292Thr	292	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.His259Tyr	259	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.His259Tyr	259	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ile249Val	249	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ile249Val	249	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Arg41Gln	41	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Arg41Gln	41	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Asp406Asn	406	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Asp406Asn	406	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Val25Ile	25	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Val25Ile	25	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Val279Ile	279	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Val279Ile	279	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Ile91Thr	91	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Ile91Thr	91	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala181Thr	181	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala181Thr	181	benign	Likely benign
+S1PR3_HUMAN	S1PR3	HGNC:3167	p.Arg13Pro	13	benign	Likely benign
+S1PR3_HUMAN	S1PR3	HGNC:3167	p.Arg13Pro	13	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ala5Thr	5	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ala5Thr	5	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asn339Asp	339	pathogenic	Likely pathogenic
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asn339Asp	339	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asp103Asn	103	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Asp103Asn	103	pathogenic	Likely pathogenic
+NK3R_HUMAN	TACR3	HGNC:11528	p.Pro61Thr	61	benign	Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Pro61Thr	61	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser505Arg	505	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ser505Arg	505	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met760Thr	760	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met760Thr	760	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr111Ile	111	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr111Ile	111	benign	Benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met164Lys	164	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met164Lys	164	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr607Arg	607	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr607Arg	607	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe97Val	97	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe97Val	97	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr165Met	165	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Thr165Met	165	pathogenic	Likely pathogenic
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Gln310Glu	310	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Gln310Glu	310	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Tyr116Ser	116	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Tyr116Ser	116	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Val32Gly	32	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Val32Gly	32	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Ala236Thr	236	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Ala236Thr	236	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Ala384Ser	384	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Ala384Ser	384	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Ile288Val	288	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Ile288Val	288	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala362Val	362	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ala362Val	362	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile154Thr	154	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile154Thr	154	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Ala263Val	263	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Ala263Val	263	benign	Likely benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu244Phe	244	benign	Likely benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu244Phe	244	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Val185Ile	185	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Val185Ile	185	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Thr218Ala	218	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Thr218Ala	218	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Ala211Val	211	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Ala211Val	211	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ile331Thr	331	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Ile331Thr	331	benign	Likely benign
+GP171_HUMAN	GPR171	HGNC:30057	p.Thr255Ser	255	benign	Likely benign
+GP171_HUMAN	GPR171	HGNC:30057	p.Thr255Ser	255	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Gln22His	22	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Gln22His	22	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Ile343Val	343	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Ile343Val	343	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Val265Ala	265	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Val265Ala	265	benign	Likely benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Gly314Ser	314	benign	Likely benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Gly314Ser	314	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Arg171Trp	171	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Arg171Trp	171	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Gly336Arg	336	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Gly336Arg	336	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Val65Met	65	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Val65Met	65	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Pro273Ser	273	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Pro273Ser	273	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Asn	296	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Lys296Asn	296	pathogenic	Pathogenic/Likely pathogenic
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Leu124Arg	124	pathogenic	Likely pathogenic
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Leu124Arg	124	pathogenic	Likely pathogenic
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Cys217Arg	217	pathogenic	Pathogenic
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Cys217Arg	217	pathogenic	Pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asn248Tyr	248	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asn248Tyr	248	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Leu277Pro	277	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Leu277Pro	277	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Cys278Tyr	278	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Cys278Tyr	278	pathogenic	Likely pathogenic
+GPR32_HUMAN	GPR32	HGNC:4487	p.Asn129Ile	129	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Asn129Ile	129	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Ala419Thr	419	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Ala419Thr	419	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Ile288Val	288	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Ile288Val	288	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Arg377Gln	377	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Arg377Gln	377	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Lys209Arg	209	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Lys209Arg	209	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Gly114Ser	114	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Gly114Ser	114	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.His60Gln	60	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.His60Gln	60	benign	Likely benign
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Gly214Ser	214	benign	Likely benign
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Gly214Ser	214	benign	Likely benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Arg31Trp	31	benign	Likely benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Arg31Trp	31	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Ala195Val	195	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Ala195Val	195	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Arg347Cys	347	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Arg347Cys	347	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Gly108Arg	108	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Gly108Arg	108	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Arg397Trp	397	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Arg397Trp	397	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ala218Ser	218	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ala218Ser	218	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Val52Leu	52	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Val52Leu	52	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Ser81Thr	81	benign	Likely benign
+PD2R2_HUMAN	PTGDR2	HGNC:4502	p.Ser81Thr	81	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Val161Leu	161	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Val161Leu	161	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Ser76Asn	76	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Ser76Asn	76	benign	Likely benign
+P2Y13_HUMAN	P2RY13	HGNC:4537	p.Ile165Thr	165	benign	Likely benign
+P2Y13_HUMAN	P2RY13	HGNC:4537	p.Ile165Thr	165	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Leu16Arg	16	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Leu16Arg	16	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Met355Val	355	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Met355Val	355	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Gly242Arg	242	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Gly242Arg	242	benign	Likely benign
+FPR2_HUMAN	FPR2	HGNC:3827	p.Arg26Gln	26	benign	Likely benign
+FPR2_HUMAN	FPR2	HGNC:3827	p.Arg26Gln	26	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg5Cys	5	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg5Cys	5	benign	Likely benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Asp368Glu	368	benign	Likely benign
+GPER1_HUMAN	GPER1	HGNC:4485	p.Asp368Glu	368	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ser299Pro	299	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ser299Pro	299	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Val54Met	54	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Val54Met	54	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Asn319Ser	319	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Asn319Ser	319	benign	Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Ile49Val	49	benign	Likely benign
+AGTR2_HUMAN	AGTR2	HGNC:338	p.Ile49Val	49	benign	Likely benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Met11Ile	11	benign	Likely benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Met11Ile	11	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Thr182Ser	182	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Thr182Ser	182	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251His	251	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251His	251	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Val14Ile	14	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Val14Ile	14	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala169Pro	169	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala169Pro	169	pathogenic	Likely pathogenic
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ser276Thr	276	benign	Benign; other
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Ser276Thr	276	benign	Benign; other
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp403Asn	403	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asp403Asn	403	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe631Val	631	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Phe631Val	631	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro272Leu	272	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro272Leu	272	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Val88Met	88	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Val88Met	88	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val87Phe	87	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val87Phe	87	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Gln174Arg	174	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Gln174Arg	174	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu62Pro	62	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu62Pro	62	pathogenic	Likely pathogenic
+GP149_HUMAN	GPR149	HGNC:23627	p.Met111Leu	111	benign	Likely benign
+GP149_HUMAN	GPR149	HGNC:23627	p.Met111Leu	111	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Met220Val	220	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Met220Val	220	benign	Likely benign
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Gly19Ser	19	benign	Likely benign
+S1PR4_HUMAN	S1PR4	HGNC:3170	p.Gly19Ser	19	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Arg14His	14	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Arg14His	14	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Arg361Gln	361	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Arg361Gln	361	benign	Likely benign
+SSR4_HUMAN	SSTR4	HGNC:11333	p.Val292Ile	292	benign	Likely benign
+SSR4_HUMAN	SSTR4	HGNC:11333	p.Val292Ile	292	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Asp424Asn	424	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Asp424Asn	424	benign	Likely benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Arg411Cys	411	benign	Likely benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Arg411Cys	411	benign	Likely benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Ala10Val	10	benign	Likely benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.Ala10Val	10	benign	Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Arg71Gln	71	benign	Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Arg71Gln	71	benign	Likely benign
+5HT1E_HUMAN	HTR1E	HGNC:5291	p.Ile81Met	81	benign	Likely benign
+5HT1E_HUMAN	HTR1E	HGNC:5291	p.Ile81Met	81	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Arg309Gln	309	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Arg309Gln	309	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly153Glu	153	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly153Glu	153	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Leu227Ile	227	benign	Likely benign
+PKR1_HUMAN	PROKR1	HGNC:4524	p.Leu227Ile	227	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Phe503Leu	503	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Phe503Leu	503	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala231Val	231	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala231Val	231	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Arg330Pro	330	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Arg330Pro	330	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Pro21Leu	21	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Pro21Leu	21	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Arg137Gln	137	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Arg137Gln	137	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Ile166Val	166	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Ile166Val	166	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Ser366Gly	366	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Ser366Gly	366	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Gln366Pro	366	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Gln366Pro	366	benign	Likely benign
+MTLR_HUMAN	MLNR	HGNC:4495	p.Ser276Arg	276	benign	Likely benign
+MTLR_HUMAN	MLNR	HGNC:4495	p.Ser276Arg	276	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu134Lys	134	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Glu134Lys	134	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met163Ile	163	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Met163Ile	163	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Phe	110	pathogenic	Pathogenic/Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Cys110Phe	110	pathogenic	Pathogenic/Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile102Thr	102	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ile102Thr	102	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu10Pro	10	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu10Pro	10	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu11Pro	11	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Leu11Pro	11	pathogenic	Likely pathogenic
+GP142_HUMAN	GPR142	HGNC:20088	p.Val120Ala	120	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Val120Ala	120	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Pro366Leu	366	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Pro366Leu	366	benign	Likely benign
+GPR42_HUMAN	GPR42	HGNC:4500	p.Gln7His	7	benign	Likely benign
+GPR42_HUMAN	GPR42	HGNC:4500	p.Gln7His	7	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Ile338Val	338	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Ile338Val	338	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Arg332Gln	332	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Arg332Gln	332	benign	Likely benign
+OPN3_HUMAN	OPN3	HGNC:14007	p.Arg317Gln	317	benign	Likely benign
+OPN3_HUMAN	OPN3	HGNC:14007	p.Arg317Gln	317	benign	Likely benign
+OPN3_HUMAN	OPN3	HGNC:14007	p.Arg178Thr	178	benign	Likely benign
+OPN3_HUMAN	OPN3	HGNC:14007	p.Arg178Thr	178	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Asp17Gly	17	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Asp17Gly	17	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ile541Thr	541	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ile541Thr	541	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ile200Val	200	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ile200Val	200	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Gly193Val	193	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Gly193Val	193	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg156Gln	156	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg156Gln	156	benign	Benign
+HCAR1_HUMAN	HCAR1	HGNC:4532	p.Ser172Leu	172	benign	Benign
+HCAR1_HUMAN	HCAR1	HGNC:4532	p.Ser172Leu	172	benign	Benign
+UR2R_HUMAN	UTS2R	HGNC:4468	p.Ser245Phe	245	benign	Likely benign
+UR2R_HUMAN	UTS2R	HGNC:4468	p.Ser245Phe	245	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Thr342Met	342	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Thr342Met	342	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Leu195Met	195	benign	Likely benign
+TAAR5_HUMAN	TAAR5	HGNC:30236	p.Leu195Met	195	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Ile167Val	167	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Ile167Val	167	benign	Likely benign
+GALR3_HUMAN	GALR3	HGNC:4134	p.Pro53Ala	53	benign	Likely benign
+GALR3_HUMAN	GALR3	HGNC:4134	p.Pro53Ala	53	benign	Likely benign
+BRS3_HUMAN	BRS3	HGNC:1113	p.Val171Ile	171	benign	Likely benign
+BRS3_HUMAN	BRS3	HGNC:1113	p.Val171Ile	171	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ser116Tyr	116	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ser116Tyr	116	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ile230Thr	230	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ile230Thr	230	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Met236Leu	236	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Met236Leu	236	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Thr103Ala	103	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Thr103Ala	103	benign	Likely benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Arg125His	125	benign	Likely benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Arg125His	125	benign	Likely benign
+GP146_HUMAN	GPR146	HGNC:21718	p.Arg135Gln	135	benign	Likely benign
+GP146_HUMAN	GPR146	HGNC:21718	p.Arg135Gln	135	benign	Likely benign
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Arg292Gln	292	benign	Likely benign
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Arg292Gln	292	benign	Likely benign
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro78Leu	78	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Pro78Leu	78	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val656Ile	656	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val656Ile	656	pathogenic	Likely pathogenic
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Thr39Ile	39	pathogenic	Likely pathogenic
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Thr39Ile	39	pathogenic	Likely pathogenic
+NPY42_HUMAN	NPY4R2	HGNC:52383	p.Arg239Gln	239	benign	Likely benign
+NPY42_HUMAN	NPY4R2	HGNC:52383	p.Arg239Gln	239	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asn260Ser	260	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Asn260Ser	260	benign	Likely benign
+LPAR1_HUMAN	LPAR1	HGNC:3166	p.Arg152Cys	152	benign	Likely benign
+LPAR1_HUMAN	LPAR1	HGNC:3166	p.Arg152Cys	152	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ile53Thr	53	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ile53Thr	53	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Val332Asp	332	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Val332Asp	332	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg528Cys	528	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg528Cys	528	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Lys161Met	161	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Lys161Met	161	pathogenic	Likely pathogenic
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ser6Phe	6	benign	Likely benign
+FPR1_HUMAN	FPR1	HGNC:3826	p.Ser6Phe	6	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Gly31Ser	31	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Gly31Ser	31	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Arg276Lys	276	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Arg276Lys	276	benign	Benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe45Leu	45	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Phe45Leu	45	benign	Likely benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser186Pro	186	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser186Pro	186	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519Gly	519	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519Gly	519	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519Cys	519	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg519Cys	519	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu653Val	653	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu653Val	653	pathogenic	Pathogenic
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Val443Ile	443	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Val443Ile	443	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu44Phe	44	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu44Phe	44	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Tyr283His	283	pathogenic	Pathogenic/Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Tyr283His	283	pathogenic	Pathogenic/Likely pathogenic
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg60Gln	60	benign	Likely benign
+S1PR2_HUMAN	S1PR2	HGNC:3169	p.Arg60Gln	60	benign	Likely benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.His150Pro	150	pathogenic	Pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.His150Pro	150	pathogenic	Pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Glu288Lys	288	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Glu288Lys	288	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Gly3Trp	3	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Gly3Trp	3	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val158Ala	158	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val158Ala	158	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly250Glu	250	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly250Glu	250	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251Gly	251	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251Gly	251	benign	Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Ile273Val	273	benign	Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Ile273Val	273	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val177Ile	177	benign	Benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val177Ile	177	benign	Benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg38Gln	38	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Arg38Gln	38	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Thr	23	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro23Thr	23	pathogenic	Likely pathogenic
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ile178Val	178	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ile178Val	178	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gln174His	174	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gln174His	174	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ile290Asn	290	benign	Benign
+OPSD_HUMAN	RHO	HGNC:10012	p.Ile290Asn	290	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Arg412Leu	412	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Arg412Leu	412	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala78Thr	78	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala78Thr	78	benign	Likely benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Pro88His	88	benign	Likely benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Pro88His	88	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Ile308Val	308	benign	Benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Ile308Val	308	benign	Benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Asp211Asn	211	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Asp211Asn	211	benign	Likely benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Ser162Pro	162	benign	Benign
+GP174_HUMAN	GPR174	HGNC:30245	p.Ser162Pro	162	benign	Benign
+CCR5_HUMAN	CCR5	HGNC:1606	p.Gly106Arg	106	benign	Likely benign
+CCR5_HUMAN	CCR5	HGNC:1606	p.Gly106Arg	106	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala238Thr	238	benign	Benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala238Thr	238	benign	Benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Arg191Cys	191	benign	Likely benign
+CX3C1_HUMAN	CX3CR1	HGNC:2558	p.Arg191Cys	191	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Gly24Glu	24	benign	Benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Gly24Glu	24	benign	Benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Arg248Gln	248	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Arg248Gln	248	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Lys243Arg	243	benign	Benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Lys243Arg	243	benign	Benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.His268Gln	268	benign	Benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.His268Gln	268	benign	Benign
+AA3R_HUMAN	ADORA3	HGNC:268	p.Ala195Thr	195	benign	Likely benign
+AA3R_HUMAN	ADORA3	HGNC:268	p.Ala195Thr	195	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly339Asp	339	benign	Likely benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Gly339Asp	339	benign	Likely benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Ser166Gly	166	benign	Likely benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Ser166Gly	166	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Thr198Asn	198	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Thr198Asn	198	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Ala325Val	325	benign	Benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Ala325Val	325	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Cys160Gly	160	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Cys160Gly	160	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala84Thr	84	benign	Benign
+DRD4_HUMAN	DRD4	HGNC:3025	p.Ala84Thr	84	benign	Benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ala171Val	171	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ala171Val	171	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Arg313His	313	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Arg313His	313	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Pro10Ser	10	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Pro10Ser	10	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Asn212Ser	212	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Asn212Ser	212	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val376Ile	376	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Val376Ile	376	benign	Likely benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Ser348Arg	348	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Ser348Arg	348	benign	Benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Cys193Ser	193	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Cys193Ser	193	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Thr419Ala	419	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Thr419Ala	419	benign	Likely benign
+ADA2C_HUMAN	ADRA2C	HGNC:283	p.Pro339Ser	339	benign	Benign
+ADA2C_HUMAN	ADRA2C	HGNC:283	p.Pro339Ser	339	benign	Benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Pro37Leu	37	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Pro37Leu	37	benign	Likely benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu22Ile	22	benign	Benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu22Ile	22	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Arg286His	286	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Arg286His	286	benign	Benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg374His	374	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg374His	374	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ser260Gly	260	benign	Likely benign
+5HT2C_HUMAN	HTR2C	HGNC:5295	p.Ser260Gly	260	benign	Likely benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Ala87Thr	87	benign	Benign
+P2Y11_HUMAN	P2RY11	HGNC:8540	p.Ala87Thr	87	benign	Benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Leu262Val	262	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Leu262Val	262	benign	Likely benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Ser32Cys	32	benign	Likely benign
+MC3R_HUMAN	MC3R	HGNC:6931	p.Ser32Cys	32	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Ala100Thr	100	benign	Benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Ala100Thr	100	benign	Benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Gly497Asp	497	benign	Likely benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Gly497Asp	497	benign	Likely benign
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.His187Gln	187	pathogenic	Likely pathogenic
+P2Y12_HUMAN	P2RY12	HGNC:18124	p.His187Gln	187	pathogenic	Likely pathogenic
+GPR75_HUMAN	GPR75	HGNC:4526	p.Ala116Thr	116	benign	Benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Ala116Thr	116	benign	Benign
+CCR2_HUMAN	CCR2	HGNC:1603	p.Met61Arg	61	pathogenic	Pathogenic
+CCR2_HUMAN	CCR2	HGNC:1603	p.Met61Arg	61	pathogenic	Pathogenic
+CCR2_HUMAN	CCR2	HGNC:1603	p.Thr296Asn	296	pathogenic	Pathogenic
+CCR2_HUMAN	CCR2	HGNC:1603	p.Thr296Asn	296	pathogenic	Pathogenic
+CCR2_HUMAN	CCR2	HGNC:1603	p.Leu119Arg	119	pathogenic	Pathogenic
+CCR2_HUMAN	CCR2	HGNC:1603	p.Leu119Arg	119	pathogenic	Pathogenic
+GPR37_HUMAN	GPR37	HGNC:4494	p.Asn202Ser	202	benign	Likely benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Asn202Ser	202	benign	Likely benign
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Asn449Ser	449	benign	Likely benign
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Asn449Ser	449	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Ile135Val	135	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Ile135Val	135	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Pro612Ser	612	benign	Likely benign
+MTR1L_HUMAN	GPR50	HGNC:4506	p.Pro612Ser	612	benign	Likely benign
+GPR65_HUMAN	GPR65	HGNC:4517	p.Arg267Gln	267	benign	Likely benign
+GPR65_HUMAN	GPR65	HGNC:4517	p.Arg267Gln	267	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Gly331Ser	331	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Gly331Ser	331	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Ile201Thr	201	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Ile201Thr	201	benign	Likely benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.His247Tyr	247	benign	Likely benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.His247Tyr	247	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Thr262Met	262	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Thr262Met	262	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Ala73Thr	73	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Ala73Thr	73	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Val264Ile	264	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Val264Ile	264	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Glu328Gln	328	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Glu328Gln	328	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Gly248Arg	248	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Gly248Arg	248	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Arg270Gln	270	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Arg270Gln	270	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Val189Met	189	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Val189Met	189	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Asp385Asn	385	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Asp385Asn	385	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Gln228Arg	228	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Gln228Arg	228	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ile189Val	189	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ile189Val	189	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ala279Val	279	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ala279Val	279	benign	Likely benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu41Phe	41	benign	Likely benign
+GP160_HUMAN	GPR160	HGNC:23693	p.Leu41Phe	41	benign	Likely benign
+GP162_HUMAN	GPR162	HGNC:16693	p.Arg14His	14	benign	Likely benign
+GP162_HUMAN	GPR162	HGNC:16693	p.Arg14His	14	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Val325Met	325	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Val325Met	325	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Phe134Leu	134	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Phe134Leu	134	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Thr107Ile	107	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Thr107Ile	107	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ser39Gly	39	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ser39Gly	39	benign	Likely benign
+ADA2A_HUMAN	ADRA2A	HGNC:281	p.Ala354Glu	354	benign	Likely benign
+ADA2A_HUMAN	ADRA2A	HGNC:281	p.Ala354Glu	354	benign	Likely benign
+AA2AR_HUMAN	ADORA2A	HGNC:263	p.Val307Ile	307	benign	Likely benign
+AA2AR_HUMAN	ADORA2A	HGNC:263	p.Val307Ile	307	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Asp285Glu	285	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Asp285Glu	285	benign	Likely benign
+5HT1D_HUMAN	HTR1D	HGNC:5289	p.Asn105Ser	105	benign	Likely benign
+5HT1D_HUMAN	HTR1D	HGNC:5289	p.Asn105Ser	105	benign	Likely benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Arg418Gln	418	benign	Likely benign
+5HT2B_HUMAN	HTR2B	HGNC:5294	p.Arg418Gln	418	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Val282Met	282	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Val282Met	282	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Val97Ile	97	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Val97Ile	97	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Glu326Asp	326	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Glu326Asp	326	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Gly150Arg	150	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Gly150Arg	150	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Arg402Gly	402	benign	Likely benign
+V1BR_HUMAN	AVPR1B	HGNC:896	p.Arg402Gly	402	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Asp190Asn	190	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Asp190Asn	190	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Thr303Ile	303	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Thr303Ile	303	benign	Likely benign
+CML1_HUMAN	CMKLR1	HGNC:2121	p.Met158Val	158	benign	Likely benign
+CML1_HUMAN	CMKLR1	HGNC:2121	p.Met158Val	158	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Thr318Met	318	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Thr318Met	318	benign	Likely benign
+S1PR3_HUMAN	S1PR3	HGNC:3167	p.Asn231Ser	231	benign	Likely benign
+S1PR3_HUMAN	S1PR3	HGNC:3167	p.Asn231Ser	231	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Leu257Val	257	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Leu257Val	257	benign	Likely benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Val193Ile	193	benign	Likely benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Val193Ile	193	benign	Likely benign
+NMUR2_HUMAN	NMUR2	HGNC:16454	p.Ser399Thr	399	benign	Likely benign
+NMUR2_HUMAN	NMUR2	HGNC:16454	p.Ser399Thr	399	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ala76Val	76	benign	Likely benign
+OPSR_HUMAN	OPN1LW	HGNC:9936	p.Ala76Val	76	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Phe279Val	279	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Phe279Val	279	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Gly442Ser	442	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Gly442Ser	442	benign	Likely benign
+NPY1R_HUMAN	NPY1R	HGNC:7956	p.Asn251Ser	251	benign	Likely benign
+NPY1R_HUMAN	NPY1R	HGNC:7956	p.Asn251Ser	251	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Gly148Ala	148	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Gly148Ala	148	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Lys303Glu	303	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Lys303Glu	303	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Val124Ile	124	benign	Likely benign
+MRGRG_HUMAN	MRGPRG	HGNC:24829	p.Val124Ile	124	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu8Trp	8	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu8Trp	8	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Val46Ala	46	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Val46Ala	46	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.His131Arg	131	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.His131Arg	131	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Arg29Gln	29	benign	Likely benign
+MTR1B_HUMAN	MTNR1B	HGNC:7464	p.Arg29Gln	29	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg337Trp	337	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg337Trp	337	benign	Likely benign
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Val252Ile	252	benign	Likely benign
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Val252Ile	252	benign	Likely benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Arg279Gln	279	benign	Likely benign
+P2RY4_HUMAN	P2RY4	HGNC:8542	p.Arg279Gln	279	benign	Likely benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Glu357Asp	357	benign	Likely benign
+PE2R4_HUMAN	PTGER4	HGNC:9596	p.Glu357Asp	357	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Gly313Arg	313	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Gly313Arg	313	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Arg80Gln	80	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Arg80Gln	80	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gln174Glu	174	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gln174Glu	174	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu47Arg	47	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Leu47Arg	47	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala346Asp	346	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ala346Asp	346	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Gly	345	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val345Gly	345	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Phe9Cys	9	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Phe9Cys	9	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Trp126Gly	126	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Trp126Gly	126	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val61Asp	61	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val61Asp	61	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Val	190	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Asp190Val	190	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr4Pro	4	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Thr4Pro	4	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro285Arg	285	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Pro285Arg	285	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val162Asp	162	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Val162Asp	162	pathogenic	Likely pathogenic
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Ala253Gly	253	benign	Likely benign
+PD2R_HUMAN	PTGDR	HGNC:9591	p.Ala253Gly	253	benign	Likely benign
+GHSR_HUMAN	GHSR	HGNC:4267	p.Cys173Arg	173	pathogenic	Likely pathogenic
+GHSR_HUMAN	GHSR	HGNC:4267	p.Cys173Arg	173	pathogenic	Likely pathogenic
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Val16Phe	16	benign	Likely benign
+CXCR3_HUMAN	CXCR3	HGNC:4540	p.Val16Phe	16	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Leu10Phe	10	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Leu10Phe	10	benign	Likely benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Gly267Ser	267	benign	Likely benign
+ADRB1_HUMAN	ADRB1	HGNC:285	p.Gly267Ser	267	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Pro276Ser	276	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Pro276Ser	276	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Asp412Glu	412	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Asp412Glu	412	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Val268Ile	268	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Val268Ile	268	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg84His	84	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg84His	84	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Pro87Leu	87	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Pro87Leu	87	benign	Likely benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Val264Ile	264	benign	Likely benign
+GPR68_HUMAN	GPR68	HGNC:4519	p.Val264Ile	264	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Arg154Gln	154	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Arg154Gln	154	benign	Likely benign
+PAR1_HUMAN	F2R	HGNC:3537	p.Val133Ile	133	benign	Likely benign
+PAR1_HUMAN	F2R	HGNC:3537	p.Val133Ile	133	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Arg174Gln	174	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Arg174Gln	174	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Ser192Leu	192	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Ser192Leu	192	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Arg155His	155	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Arg155His	155	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Thr180Met	180	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Thr180Met	180	benign	Likely benign
+GP139_HUMAN	GPR139	HGNC:19995	p.Asp101Asn	101	benign	Likely benign
+GP139_HUMAN	GPR139	HGNC:19995	p.Asp101Asn	101	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Arg155His	155	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Arg155His	155	benign	Likely benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Arg205His	205	benign	Likely benign
+OX1R_HUMAN	HCRTR1	HGNC:4848	p.Arg205His	205	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Pro19Ser	19	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Pro19Ser	19	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ala244Thr	244	benign	Likely benign
+5HT1A_HUMAN	HTR1A	HGNC:5286	p.Ala244Thr	244	benign	Likely benign
+5HT7R_HUMAN	HTR7	HGNC:5302	p.Pro457Ser	457	benign	Likely benign
+5HT7R_HUMAN	HTR7	HGNC:5302	p.Pro457Ser	457	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Met723Thr	723	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Met723Thr	723	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg844Cys	844	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Arg844Cys	844	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Arg282Gln	282	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Arg282Gln	282	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Gln254Lys	254	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Gln254Lys	254	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Thr82Met	82	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Thr82Met	82	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu30Phe	30	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu30Phe	30	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Gly32Val	32	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Gly32Val	32	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Val723Ile	723	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Val723Ile	723	benign	Likely benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Met56Leu	56	benign	Likely benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Met56Leu	56	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Met151Ile	151	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Met151Ile	151	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Pro246Leu	246	benign	Likely benign
+NTR2_HUMAN	NTSR2	HGNC:8040	p.Pro246Leu	246	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Thr392Asn	392	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Thr392Asn	392	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Ala314Thr	314	benign	Likely benign
+OPN4_HUMAN	OPN4	HGNC:14449	p.Ala314Thr	314	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Thr388Met	388	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Thr388Met	388	benign	Likely benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Ile58Val	58	benign	Likely benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Ile58Val	58	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Ala329Thr	329	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Ala329Thr	329	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Val657Ile	657	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Val657Ile	657	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Val219Ile	219	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Val219Ile	219	benign	Likely benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Thr262Met	262	benign	Likely benign
+TAAR8_HUMAN	TAAR8	HGNC:14964	p.Thr262Met	262	benign	Likely benign
+SUCR1_HUMAN	SUCNR1	HGNC:4542	p.Val272Ile	272	benign	Likely benign
+SUCR1_HUMAN	SUCNR1	HGNC:4542	p.Val272Ile	272	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu252Pro	252	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu252Pro	252	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala275Thr	275	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala275Thr	275	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala163Asp	163	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala163Asp	163	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu274Pro	274	pathogenic	Pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu274Pro	274	pathogenic	Pathogenic
+OXER1_HUMAN	OXER1	HGNC:24884	p.Gln326His	326	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Gln326His	326	benign	Likely benign
+NK1R_HUMAN	TACR1	HGNC:11526	p.Val253Met	253	benign	Likely benign
+NK1R_HUMAN	TACR1	HGNC:11526	p.Val253Met	253	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Met112Ile	112	benign	Likely benign
+GPBAR_HUMAN	GPBAR1	HGNC:19680	p.Met112Ile	112	benign	Likely benign
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Val46Met	46	pathogenic	Likely pathogenic
+OXGR1_HUMAN	OXGR1	HGNC:4531	p.Val46Met	46	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn670Ser	670	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn670Ser	670	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala623Val	623	pathogenic	Pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ala623Val	623	pathogenic	Pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala419Pro	419	pathogenic	Likely pathogenic
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ala419Pro	419	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro159Leu	159	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro159Leu	159	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Arg245His	245	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Arg245His	245	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val25Ile	25	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val25Ile	25	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Ile81Val	81	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Ile81Val	81	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Arg159Met	159	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Arg159Met	159	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val5Ile	5	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Val5Ile	5	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Thr136Arg	136	benign	Likely benign
+MRGX4_HUMAN	MRGPRX4	HGNC:17617	p.Thr136Arg	136	benign	Likely benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Val159Ile	159	benign	Likely benign
+MTR1A_HUMAN	MTNR1A	HGNC:7463	p.Val159Ile	159	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Met384Val	384	benign	Likely benign
+NMBR_HUMAN	NMBR	HGNC:7843	p.Met384Val	384	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg175Gln	175	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Arg175Gln	175	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ala51Val	51	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Ala51Val	51	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Tyr395Cys	395	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Tyr395Cys	395	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Val264Met	264	benign	Likely benign
+NPFF2_HUMAN	NPFFR2	HGNC:4525	p.Val264Met	264	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Val437Met	437	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Val437Met	437	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Met269Ile	269	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Met269Ile	269	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ala18Thr	18	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Ala18Thr	18	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Thr14Ser	14	benign	Likely benign
+OPRM_HUMAN	OPRM1	HGNC:8156	p.Thr14Ser	14	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala169Val	169	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Ala169Val	169	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Arg339His	339	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Arg339His	339	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Ala318Val	318	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Ala318Val	318	benign	Likely benign
+PE2R3_HUMAN	PTGER3	HGNC:9595	p.Arg396Lys	396	benign	Likely benign
+PE2R3_HUMAN	PTGER3	HGNC:9595	p.Arg396Lys	396	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Val106Ile	106	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Val106Ile	106	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala327Thr	327	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala327Thr	327	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala152Ser	152	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala152Ser	152	benign	Likely benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Asp163Asn	163	benign	Likely benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Asp163Asn	163	benign	Likely benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Val250Met	250	benign	Likely benign
+PTAFR_HUMAN	PTAFR	HGNC:9582	p.Val250Met	250	benign	Likely benign
+RXFP1_HUMAN	RXFP1	HGNC:19718	p.Arg694Gln	694	benign	Likely benign
+RXFP1_HUMAN	RXFP1	HGNC:19718	p.Arg694Gln	694	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ala548Val	548	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Ala548Val	548	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Cys196Arg	196	benign	Likely benign
+RXFP2_HUMAN	RXFP2	HGNC:17318	p.Cys196Arg	196	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Met3Val	3	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Met3Val	3	benign	Likely benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Thr238Ser	238	benign	Likely benign
+S1PR5_HUMAN	S1PR5	HGNC:14299	p.Thr238Ser	238	benign	Likely benign
+SSR2_HUMAN	SSTR2	HGNC:11331	p.His12Gln	12	benign	Likely benign
+SSR2_HUMAN	SSTR2	HGNC:11331	p.His12Gln	12	benign	Likely benign
+SSR2_HUMAN	SSTR2	HGNC:11331	p.Ala4Val	4	benign	Likely benign
+SSR2_HUMAN	SSTR2	HGNC:11331	p.Ala4Val	4	benign	Likely benign
+SSR4_HUMAN	SSTR4	HGNC:11333	p.Val266Ala	266	benign	Likely benign
+SSR4_HUMAN	SSTR4	HGNC:11333	p.Val266Ala	266	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Thr193Met	193	benign	Likely benign
+NK2R_HUMAN	TACR2	HGNC:11527	p.Thr193Met	193	benign	Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala36Thr	36	benign	Likely benign
+NK3R_HUMAN	TACR3	HGNC:11528	p.Ala36Thr	36	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251Cys	251	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg251Cys	251	benign	Likely benign
+V1AR_HUMAN	AVPR1A	HGNC:895	p.Arg43Lys	43	benign	Likely benign
+V1AR_HUMAN	AVPR1A	HGNC:895	p.Arg43Lys	43	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Arg193Gln	193	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.Arg193Gln	193	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Ala246Val	246	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Ala246Val	246	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Val151Ile	151	benign	Likely benign
+CCR3_HUMAN	CCR3	HGNC:1604	p.Val151Ile	151	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Thr117Met	117	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Thr117Met	117	benign	Likely benign
+CCR8_HUMAN	CCR8	HGNC:1609	p.Pro331Ser	331	benign	Likely benign
+CCR8_HUMAN	CCR8	HGNC:1609	p.Pro331Ser	331	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala33Thr	33	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala33Thr	33	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Arg71His	71	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Arg71His	71	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Gly327Arg	327	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Gly327Arg	327	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Gly349Arg	349	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Gly349Arg	349	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Ile280Val	280	benign	Likely benign
+BKRB2_HUMAN	BDKRB2	HGNC:1030	p.Ile280Val	280	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ile166Thr	166	benign	Likely benign
+CLTR2_HUMAN	CYSLTR2	HGNC:18274	p.Ile166Thr	166	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Ala37Val	37	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Ala37Val	37	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Arg315His	315	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Arg315His	315	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Val175Ile	175	benign	Likely benign
+FFAR4_HUMAN	FFAR4	HGNC:19061	p.Val175Ile	175	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Arg353His	353	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Arg353His	353	benign	Likely benign
+GALR3_HUMAN	GALR3	HGNC:4134	p.Ala319Thr	319	benign	Likely benign
+GALR3_HUMAN	GALR3	HGNC:4134	p.Ala319Thr	319	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Thr315Met	315	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Thr315Met	315	benign	Likely benign
+GPR62_HUMAN	GPR62	HGNC:13301	p.Glu350Asp	350	benign	Likely benign
+GPR62_HUMAN	GPR62	HGNC:13301	p.Glu350Asp	350	benign	Likely benign
+GPR84_HUMAN	GPR84	HGNC:4535	p.Arg319Gln	319	benign	Likely benign
+GPR84_HUMAN	GPR84	HGNC:4535	p.Arg319Gln	319	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Val156Ile	156	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Val156Ile	156	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Arg315Lys	315	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Arg315Lys	315	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Arg153His	153	benign	Likely benign
+GP132_HUMAN	GPR132	HGNC:17482	p.Arg153His	153	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Val227Ile	227	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Val227Ile	227	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Pro377Arg	377	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Pro377Arg	377	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Ala116Thr	116	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Ala116Thr	116	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.His348Arg	348	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.His348Arg	348	benign	Likely benign
+GPR3_HUMAN	GPR3	HGNC:4484	p.Pro26Ser	26	benign	Likely benign
+GPR3_HUMAN	GPR3	HGNC:4484	p.Pro26Ser	26	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg315Lys	315	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg315Lys	315	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Arg173His	173	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Arg173His	173	benign	Likely benign
+GPR4_HUMAN	GPR4	HGNC:4497	p.Gln47Arg	47	benign	Likely benign
+GPR4_HUMAN	GPR4	HGNC:4497	p.Gln47Arg	47	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Glu429Lys	429	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Glu429Lys	429	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Ala415Thr	415	benign	Likely benign
+5HT6R_HUMAN	HTR6	HGNC:5301	p.Ala415Thr	415	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Lys266Gln	266	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Lys266Gln	266	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Thr124Ile	124	benign	Likely benign
+MSHR_HUMAN	MC1R	HGNC:6929	p.Thr124Ile	124	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Ala264Val	264	benign	Likely benign
+MAS1L_HUMAN	MAS1L	HGNC:13961	p.Ala264Val	264	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser7Leu	7	benign	Likely benign
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Ser7Leu	7	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Arg313His	313	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Arg313His	313	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Asn25Ser	25	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Asn25Ser	25	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Gly4Arg	4	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Gly4Arg	4	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Ala336Thr	336	benign	Likely benign
+MCHR1_HUMAN	MCHR1	HGNC:4479	p.Ala336Thr	336	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro162Leu	162	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Pro162Leu	162	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg528Ser	528	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Arg528Ser	528	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val689Gly	689	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Val689Gly	689	pathogenic	Likely pathogenic
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Ala452Ser	452	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Ala452Ser	452	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Lys570Thr	570	benign	Likely benign
+ACM3_HUMAN	CHRM3	HGNC:1952	p.Lys570Thr	570	benign	Likely benign
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Asn	578	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Asp578Asn	578	pathogenic	Likely pathogenic
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ser115Thr	115	benign	Likely benign
+AGTR1_HUMAN	AGTR1	HGNC:336	p.Ser115Thr	115	benign	Likely benign
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu166Pro	166	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Leu166Pro	166	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Val76Ile	76	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Val76Ile	76	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Phe229Val	229	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Phe229Val	229	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg252Gln	252	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg252Gln	252	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu310Phe	310	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Leu310Phe	310	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr359Ile	359	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr359Ile	359	benign	Likely benign
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala144Ser	144	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala144Ser	144	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala144Val	144	pathogenic	Likely pathogenic
+EDNRB_HUMAN	EDNRB	HGNC:3180	p.Ala144Val	144	pathogenic	Likely pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Gly226Arg	226	pathogenic	Pathogenic
+ACTHR_HUMAN	MC2R	HGNC:6930	p.Gly226Arg	226	pathogenic	Pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala171Val	171	pathogenic	Likely pathogenic
+GNRHR_HUMAN	GNRHR	HGNC:4421	p.Ala171Val	171	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ser253Cys	253	benign	Likely benign
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Ser253Cys	253	benign	Likely benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Arg502His	502	benign	Likely benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Arg502His	502	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val99Glu	99	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Val99Glu	99	benign	Likely benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Val214Met	214	benign	Likely benign
+GP161_HUMAN	GPR161	HGNC:23694	p.Val214Met	214	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Trp323Arg	323	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Trp323Arg	323	pathogenic	Likely pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+OPSD_HUMAN	RHO	HGNC:10012	p.Ser297Arg	297	pathogenic	Pathogenic
+GP101_HUMAN	GPR101	HGNC:14963	p.Asp315Asn	315	benign	Benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Asp315Asn	315	benign	Benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly201Cys	201	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Gly201Cys	201	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asn246Asp	246	pathogenic	Likely pathogenic
+LPAR6_HUMAN	LPAR6	HGNC:15520	p.Asn246Asp	246	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn432Ser	432	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Asn432Ser	432	pathogenic	Likely pathogenic
+CCR9_HUMAN	CCR9	HGNC:1610	p.Ile92Val	92	benign	Benign
+CCR9_HUMAN	CCR9	HGNC:1610	p.Ile92Val	92	benign	Benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Phe15Leu	15	benign	Likely benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Phe15Leu	15	benign	Likely benign
+GPR34_HUMAN	GPR34	HGNC:4490	p.Ile337Val	337	benign	Likely benign
+GPR34_HUMAN	GPR34	HGNC:4490	p.Ile337Val	337	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Pro298Ala	298	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Pro298Ala	298	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu75Pro	75	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Leu75Pro	75	pathogenic	Likely pathogenic
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Thr100Ala	100	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Thr100Ala	100	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Trp22Gly	22	benign	Likely benign
+PE2R1_HUMAN	PTGER1	HGNC:9593	p.Trp22Gly	22	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Arg314Gln	314	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Arg314Gln	314	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Arg233Gln	233	benign	Likely benign
+RL3R2_HUMAN	RXFP4	HGNC:14666	p.Arg233Gln	233	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ala125Thr	125	benign	Likely benign
+TA2R_HUMAN	TBXA2R	HGNC:11608	p.Ala125Thr	125	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala2Asp	2	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Ala2Asp	2	benign	Likely benign
+GASR_HUMAN	CCKBR	HGNC:1571	p.Leu133Phe	133	benign	Likely benign
+GASR_HUMAN	CCKBR	HGNC:1571	p.Leu133Phe	133	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Val272Met	272	benign	Likely benign
+CXCR1_HUMAN	CXCR1	HGNC:6026	p.Val272Met	272	benign	Likely benign
+CXCR6_HUMAN	CXCR6	HGNC:16647	p.Ile158Val	158	benign	Likely benign
+CXCR6_HUMAN	CXCR6	HGNC:16647	p.Ile158Val	158	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Asp80Glu	80	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Asp80Glu	80	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Gly276Cys	276	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Gly276Cys	276	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Val243Met	243	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Val243Met	243	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Lys149Glu	149	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Lys149Glu	149	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Gln14Arg	14	benign	Likely benign
+DRD5_HUMAN	DRD5	HGNC:3026	p.Gln14Arg	14	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ala203Thr	203	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ala203Thr	203	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Tyr5Cys	5	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Tyr5Cys	5	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Ala35Thr	35	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Ala35Thr	35	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Met337Leu	337	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Met337Leu	337	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile167Val	167	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile167Val	167	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Arg231Ser	231	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Arg231Ser	231	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Glu476Lys	476	benign	Likely benign
+GP101_HUMAN	GPR101	HGNC:14963	p.Glu476Lys	476	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Phe216Leu	216	benign	Likely benign
+GP151_HUMAN	GPR151	HGNC:23624	p.Phe216Leu	216	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ala288Thr	288	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ala288Thr	288	benign	Likely benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Gly10Ser	10	benign	Likely benign
+GPR17_HUMAN	GPR17	HGNC:4471	p.Gly10Ser	10	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Thr137Met	137	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Thr137Met	137	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Arg26His	26	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Arg26His	26	benign	Likely benign
+HCAR2_HUMAN	HCAR2	HGNC:24827	p.Val241Ile	241	benign	Likely benign
+HCAR2_HUMAN	HCAR2	HGNC:24827	p.Val241Ile	241	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Arg393Gln	393	benign	Likely benign
+OX2R_HUMAN	HCRTR2	HGNC:4849	p.Arg393Gln	393	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ile375Val	375	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ile375Val	375	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Leu31Pro	31	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Leu31Pro	31	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Thr944Met	944	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Thr944Met	944	benign	Likely benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Gly387Arg	387	benign	Likely benign
+KISSR_HUMAN	KISS1R	HGNC:4510	p.Gly387Arg	387	benign	Likely benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Gly281Asp	281	benign	Likely benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Gly281Asp	281	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val104Ile	104	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Val104Ile	104	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Asp181Glu	181	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Asp181Glu	181	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val260Ile	260	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Val260Ile	260	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Arg377Gln	377	benign	Likely benign
+NPFF1_HUMAN	NPFFR1	HGNC:17425	p.Arg377Gln	377	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile216Thr	216	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Ile216Thr	216	pathogenic	Likely pathogenic
+GPR34_HUMAN	GPR34	HGNC:4490	p.Ile191Val	191	benign	Likely benign
+GPR34_HUMAN	GPR34	HGNC:4490	p.Ile191Val	191	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Glu343Lys	343	pathogenic	Likely pathogenic
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Glu343Lys	343	pathogenic	Likely pathogenic
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Arg41His	41	benign	Likely benign
+EDNRA_HUMAN	EDNRA	HGNC:3179	p.Arg41His	41	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr273Met	273	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Thr273Met	273	pathogenic	Likely pathogenic
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Glu252Lys	252	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Glu252Lys	252	benign	Likely benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Val137Ile	137	benign	Likely benign
+MRGRF_HUMAN	MRGPRF	HGNC:24828	p.Val137Ile	137	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ile209Met	209	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Ile209Met	209	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Phe317Leu	317	benign	Likely benign
+MRGX2_HUMAN	MRGPRX2	HGNC:17983	p.Phe317Leu	317	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Ala30Pro	30	benign	Likely benign
+NPBW1_HUMAN	NPBWR1	HGNC:4522	p.Ala30Pro	30	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Val320Ile	320	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Val320Ile	320	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Val104Ile	104	benign	Likely benign
+OPSG2_HUMAN	OPN1MW2	HGNC:26952	p.Val104Ile	104	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Phe265Leu	265	benign	Likely benign
+OPSB_HUMAN	OPN1SW	HGNC:1012	p.Phe265Leu	265	benign	Likely benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Val285Ile	285	benign	Likely benign
+OPRK_HUMAN	OPRK1	HGNC:8154	p.Val285Ile	285	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Met61Val	61	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Met61Val	61	benign	Likely benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Asp400Asn	400	benign	Likely benign
+NTR1_HUMAN	NTSR1	HGNC:8039	p.Asp400Asn	400	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg335Gln	335	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Arg335Gln	335	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Ala175Ser	175	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Ala175Ser	175	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Ser320Arg	320	benign	Likely benign
+PF2R_HUMAN	PTGFR	HGNC:9600	p.Ser320Arg	320	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Val296Ile	296	benign	Likely benign
+OPSX_HUMAN	RRH	HGNC:10450	p.Val296Ile	296	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Thr162Met	162	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Thr162Met	162	benign	Likely benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Ile187Val	187	benign	Likely benign
+TAAR6_HUMAN	TAAR6	HGNC:20978	p.Ile187Val	187	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro244Ala	244	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Pro244Ala	244	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Ala326Thr	326	benign	Likely benign
+XCR1_HUMAN	XCR1	HGNC:1625	p.Ala326Thr	326	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Thr219Met	219	benign	Likely benign
+C5AR1_HUMAN	C5AR1	HGNC:1338	p.Thr219Met	219	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala182Pro	182	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala182Pro	182	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala109Val	109	benign	Likely benign
+C5AR2_HUMAN	C5AR2	HGNC:4527	p.Ala109Val	109	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Val115Ile	115	benign	Likely benign
+ACKR1_HUMAN	ACKR1	HGNC:4035	p.Val115Ile	115	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Pro153Ser	153	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Pro153Ser	153	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val223Ile	223	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Val223Ile	223	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Arg163His	163	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Arg163His	163	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ser158Tyr	158	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ser158Tyr	158	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Glu45Asp	45	benign	Likely benign
+CXCR2_HUMAN	CXCR2	HGNC:6027	p.Glu45Asp	45	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Asp291Gly	291	benign	Likely benign
+CXCR5_HUMAN	CXCR5	HGNC:1060	p.Asp291Gly	291	benign	Likely benign
+PAR2_HUMAN	F2RL1	HGNC:3538	p.Ser3Arg	3	benign	Likely benign
+PAR2_HUMAN	F2RL1	HGNC:3538	p.Ser3Arg	3	benign	Likely benign
+FFAR1_HUMAN	FFAR1	HGNC:4498	p.Thr156Ser	156	benign	Likely benign
+FFAR1_HUMAN	FFAR1	HGNC:4498	p.Thr156Ser	156	benign	Likely benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.Gln40His	40	benign	Likely benign
+FFAR2_HUMAN	FFAR2	HGNC:4501	p.Gln40His	40	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Gly212Ser	212	benign	Likely benign
+FFAR3_HUMAN	FFAR3	HGNC:4499	p.Gly212Ser	212	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Thr127Ala	127	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Thr127Ala	127	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Gly193Ala	193	benign	Likely benign
+GPR19_HUMAN	GPR19	HGNC:4473	p.Gly193Ala	193	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg83Gln	83	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg83Gln	83	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ser167Pro	167	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ser167Pro	167	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Gly123Ser	123	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.Gly123Ser	123	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Cys305Ser	305	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Cys305Ser	305	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ile145Val	145	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Ile145Val	145	benign	Likely benign
+GPR84_HUMAN	GPR84	HGNC:4535	p.Arg390Trp	390	benign	Likely benign
+GPR84_HUMAN	GPR84	HGNC:4535	p.Arg390Trp	390	benign	Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Val121Met	121	benign	Likely benign
+GP119_HUMAN	GPR119	HGNC:19060	p.Val121Met	121	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Arg363Trp	363	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Arg363Trp	363	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Leu153Arg	153	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Leu153Arg	153	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Val339Leu	339	benign	Likely benign
+GP150_HUMAN	GPR150	HGNC:23628	p.Val339Leu	339	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Arg367Gln	367	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Arg367Gln	367	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ser241Leu	241	benign	Likely benign
+HRH4_HUMAN	HRH4	HGNC:17383	p.Ser241Leu	241	benign	Likely benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Ser18Phe	18	benign	Likely benign
+LT4R1_HUMAN	LTB4R	HGNC:6713	p.Ser18Phe	18	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Ile105Val	105	benign	Likely benign
+5HT1B_HUMAN	HTR1B	HGNC:5287	p.Ile105Val	105	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Ser848Pro	848	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Ser848Pro	848	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Leu262Ile	262	benign	Likely benign
+MC5R_HUMAN	MC5R	HGNC:6933	p.Leu262Ile	262	benign	Likely benign
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met1Ile	1	pathogenic	Likely pathogenic
+TSHR_HUMAN	TSHR	HGNC:12373	p.Met1Ile	1	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser139Arg	139	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Ser139Arg	139	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Phe444Cys	444	pathogenic	Likely pathogenic
+LSHR_HUMAN	LHCGR	HGNC:6585	p.Phe444Cys	444	pathogenic	Likely pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Asp299Val	299	pathogenic	Likely pathogenic
+PKR2_HUMAN	PROKR2	HGNC:15836	p.Asp299Val	299	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Phe51Leu	51	pathogenic	Likely pathogenic
+MC4R_HUMAN	MC4R	HGNC:6932	p.Phe51Leu	51	pathogenic	Likely pathogenic
+LGR4_HUMAN	LGR4	HGNC:13299	p.Pro414Ser	414	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Pro414Ser	414	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg818His	818	benign	Likely benign
+LGR4_HUMAN	LGR4	HGNC:13299	p.Arg818His	818	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Thr606Met	606	benign	Likely benign
+LGR5_HUMAN	LGR5	HGNC:4504	p.Thr606Met	606	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Val967Leu	967	benign	Likely benign
+LGR6_HUMAN	LGR6	HGNC:19719	p.Val967Leu	967	benign	Likely benign
+MTLR_HUMAN	MLNR	HGNC:4495	p.Arg278Gln	278	benign	Likely benign
+MTLR_HUMAN	MLNR	HGNC:4495	p.Arg278Gln	278	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Met253Thr	253	benign	Likely benign
+MRGRD_HUMAN	MRGPRD	HGNC:29626	p.Met253Thr	253	benign	Likely benign
+MRGRE_HUMAN	MRGPRE	HGNC:30694	p.Ala116Thr	116	benign	Likely benign
+MRGRE_HUMAN	MRGPRE	HGNC:30694	p.Ala116Thr	116	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu160Phe	160	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Leu160Phe	160	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Gly167Asp	167	benign	Likely benign
+MRGX1_HUMAN	MRGPRX1	HGNC:17962	p.Gly167Asp	167	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Asp162Gly	162	benign	Likely benign
+MRGX3_HUMAN	MRGPRX3	HGNC:17980	p.Asp162Gly	162	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Gly374Arg	374	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Gly374Arg	374	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Asn22Ser	22	benign	Likely benign
+NMUR1_HUMAN	NMUR1	HGNC:4518	p.Asn22Ser	22	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Gly273Ser	273	benign	Likely benign
+NPY5R_HUMAN	NPY5R	HGNC:7958	p.Gly273Ser	273	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala350Thr	350	benign	Likely benign
+OPSG_HUMAN	OPN1MW	HGNC:4206	p.Ala350Thr	350	benign	Likely benign
+OPRX_HUMAN	OPRL1	HGNC:8155	p.Gly43Ser	43	benign	Likely benign
+OPRX_HUMAN	OPRL1	HGNC:8155	p.Gly43Ser	43	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Leu331Phe	331	benign	Likely benign
+NPBW2_HUMAN	NPBWR2	HGNC:4530	p.Leu331Phe	331	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ile59Val	59	benign	Likely benign
+OXER1_HUMAN	OXER1	HGNC:24884	p.Ile59Val	59	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Asn303Asp	303	benign	Likely benign
+OXYR_HUMAN	OXTR	HGNC:8529	p.Asn303Asp	303	benign	Likely benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Val204Ile	204	benign	Likely benign
+P2Y14_HUMAN	P2RY14	HGNC:16442	p.Val204Ile	204	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Met346Thr	346	benign	Likely benign
+P2RY2_HUMAN	P2RY2	HGNC:8541	p.Met346Thr	346	benign	Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Ala247Ser	247	benign	Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Ala247Ser	247	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala370Thr	370	benign	Likely benign
+PI2R_HUMAN	PTGIR	HGNC:9602	p.Ala370Thr	370	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Ser269Leu	269	benign	Likely benign
+RL3R1_HUMAN	RXFP3	HGNC:24883	p.Ser269Leu	269	benign	Likely benign
+TAAR9_HUMAN	TAAR9	HGNC:20977	p.Lys246Gln	246	benign	Likely benign
+TAAR9_HUMAN	TAAR9	HGNC:20977	p.Lys246Gln	246	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Ser411Gly	411	benign	Likely benign
+SSR3_HUMAN	SSTR3	HGNC:11332	p.Ser411Gly	411	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Ala350Thr	350	benign	Likely benign
+SSR5_HUMAN	SSTR5	HGNC:11334	p.Ala350Thr	350	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg65Gln	65	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Arg65Gln	65	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala300Pro	300	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ala300Pro	300	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Ala336Thr	336	benign	Likely benign
+BKRB1_HUMAN	BDKRB1	HGNC:1029	p.Ala336Thr	336	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Gly211Ser	211	benign	Likely benign
+ACKR3_HUMAN	ACKR3	HGNC:23692	p.Gly211Ser	211	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Ile59Val	59	benign	Likely benign
+C3AR_HUMAN	C3AR1	HGNC:1319	p.Ile59Val	59	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.His181Tyr	181	benign	Likely benign
+CCR1_HUMAN	CCR1	HGNC:1602	p.His181Tyr	181	benign	Likely benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Asp17Glu	17	benign	Likely benign
+CCR10_HUMAN	CCR10	HGNC:4474	p.Asp17Glu	17	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ser194Arg	194	benign	Likely benign
+CCR6_HUMAN	CCR6	HGNC:1607	p.Ser194Arg	194	benign	Likely benign
+CCR7_HUMAN	CCR7	HGNC:1608	p.Arg201Lys	201	benign	Likely benign
+CCR7_HUMAN	CCR7	HGNC:1608	p.Arg201Lys	201	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Arg71Cys	71	benign	Likely benign
+CCRL2_HUMAN	CCRL2	HGNC:1612	p.Arg71Cys	71	benign	Likely benign
+ACM4_HUMAN	CHRM4	HGNC:1953	p.Val254Ile	254	benign	Likely benign
+ACM4_HUMAN	CHRM4	HGNC:1953	p.Val254Ile	254	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Arg81Trp	81	benign	Likely benign
+ADA2B_HUMAN	ADRA2B	HGNC:282	p.Arg81Trp	81	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Gly325Ser	325	benign	Likely benign
+ADRB3_HUMAN	ADRB3	HGNC:288	p.Gly325Ser	325	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Ala312Ser	312	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Ala312Ser	312	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Gly49Ala	49	benign	Likely benign
+ADA1D_HUMAN	ADRA1D	HGNC:280	p.Gly49Ala	49	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Met162Val	162	benign	Likely benign
+AA1R_HUMAN	ADORA1	HGNC:262	p.Met162Val	162	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Arg190Gln	190	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Arg190Gln	190	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala206Thr	206	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Ala206Thr	206	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Gly279Ser	279	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Gly279Ser	279	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Val170Ile	170	benign	Likely benign
+PAR4_HUMAN	F2RL3	HGNC:3540	p.Val170Ile	170	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile300Val	300	benign	Likely benign
+FPR3_HUMAN	FPR3	HGNC:3828	p.Ile300Val	300	benign	Likely benign
+GP171_HUMAN	GPR171	HGNC:30057	p.Lys83Arg	83	benign	Likely benign
+GP171_HUMAN	GPR171	HGNC:30057	p.Lys83Arg	83	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg154Gln	154	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg154Gln	154	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg24Trp	24	benign	Likely benign
+GPR20_HUMAN	GPR20	HGNC:4475	p.Arg24Trp	24	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.Thr331Ile	331	benign	Likely benign
+GPR21_HUMAN	GPR21	HGNC:4476	p.Thr331Ile	331	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg120Gln	120	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Arg120Gln	120	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ser286Asn	286	benign	Likely benign
+GPR31_HUMAN	GPR31	HGNC:4486	p.Ser286Asn	286	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Val319Ile	319	benign	Likely benign
+GPR32_HUMAN	GPR32	HGNC:4487	p.Val319Ile	319	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.His171Asp	171	benign	Likely benign
+GPR33_HUMAN	GPR33	HGNC:4489	p.His171Asp	171	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Gly146Ser	146	benign	Likely benign
+GPR35_HUMAN	GPR35	HGNC:4492	p.Gly146Ser	146	benign	Likely benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Ala56Val	56	benign	Likely benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Ala56Val	56	benign	Likely benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Ile148Thr	148	benign	Likely benign
+GPR37_HUMAN	GPR37	HGNC:4494	p.Ile148Thr	148	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Arg362His	362	benign	Likely benign
+GPR39_HUMAN	GPR39	HGNC:4496	p.Arg362His	362	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Met274Leu	274	benign	Likely benign
+GPR55_HUMAN	GPR55	HGNC:4511	p.Met274Leu	274	benign	Likely benign
+GPR6_HUMAN	GPR6	HGNC:4515	p.Ala28Thr	28	benign	Likely benign
+GPR6_HUMAN	GPR6	HGNC:4515	p.Ala28Thr	28	benign	Likely benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Thr155Met	155	benign	Likely benign
+GPR75_HUMAN	GPR75	HGNC:4526	p.Thr155Met	155	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Arg298Cys	298	benign	Likely benign
+GPR78_HUMAN	GPR78	HGNC:4528	p.Arg298Cys	298	benign	Likely benign
+GPR87_HUMAN	GPR87	HGNC:4538	p.Gly17Ser	17	benign	Likely benign
+GPR87_HUMAN	GPR87	HGNC:4538	p.Gly17Ser	17	benign	Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser673Pro	673	benign	Likely benign
+FSHR_HUMAN	FSHR	HGNC:3969	p.Ser673Pro	673	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Tyr434Cys	434	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Tyr434Cys	434	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Gly248Arg	248	benign	Likely benign
+GP135_HUMAN	GPR135	HGNC:19991	p.Gly248Arg	248	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala359Val	359	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala359Val	359	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala125Val	125	benign	Likely benign
+GP142_HUMAN	GPR142	HGNC:20088	p.Ala125Val	125	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Gln197Glu	197	benign	Likely benign
+GP148_HUMAN	GPR148	HGNC:23623	p.Gln197Glu	197	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Ala42Val	42	benign	Likely benign
+GPR15_HUMAN	GPR15	HGNC:4469	p.Ala42Val	42	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Arg221His	221	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Arg221His	221	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Val267Ile	267	benign	Likely benign
+GP152_HUMAN	GPR152	HGNC:23622	p.Val267Ile	267	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ile334Val	334	benign	Likely benign
+GP153_HUMAN	GPR153	HGNC:23618	p.Ile334Val	334	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Ile91Val	91	benign	Likely benign
+GRPR_HUMAN	GRPR	HGNC:4609	p.Ile91Val	91	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Ser261Leu	261	benign	Likely benign
+HCAR3_HUMAN	HCAR3	HGNC:16824	p.Ser261Leu	261	benign	Likely benign
+FFAR1_HUMAN	FFAR1	HGNC:4498	p.Gly10Ala	10	benign	Likely benign
+FFAR1_HUMAN	FFAR1	HGNC:4498	p.Gly10Ala	10	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Ala15Val	15	benign	Likely benign
+GALR2_HUMAN	GALR2	HGNC:4133	p.Ala15Val	15	benign	Likely benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Thr150Met	150	benign	Likely benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Thr150Met	150	benign	Likely benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Val91Met	91	benign	Likely benign
+5HT4R_HUMAN	HTR4	HGNC:5299	p.Val91Met	91	benign	Likely benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Met90Thr	90	benign	Likely benign
+HRH1_HUMAN	HRH1	HGNC:5182	p.Met90Thr	90	benign	Likely benign
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Tyr142Phe	142	pathogenic	Likely pathogenic
+PE2R2_HUMAN	PTGER2	HGNC:9594	p.Tyr142Phe	142	pathogenic	Likely pathogenic
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Gly441Arg	441	benign	Likely benign
+G37L1_HUMAN	GPR37L1	HGNC:14923	p.Gly441Arg	441	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Val172Ile	172	benign	Likely benign
+GPR82_HUMAN	GPR82	HGNC:4533	p.Val172Ile	172	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Ser263Pro	263	benign	Likely benign
+CXCR4_HUMAN	CXCR4	HGNC:2561	p.Ser263Pro	263	benign	Likely benign
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile177Asn	177	pathogenic	Likely pathogenic
+V2R_HUMAN	AVPR2	HGNC:897	p.Ile177Asn	177	pathogenic	Likely pathogenic
