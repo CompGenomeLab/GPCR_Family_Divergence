@@ -494,11 +494,11 @@ async function preparePanel_combined() {
   merged.forEach(r => { if (r.colorValue == null) r.colorValue = minSig; });
 
   return {
-    title: "Combined Mutational Intolerance",
+    title: "Combined Mutational Tolerance",
     data: merged,
     colorSpec: {
       type: "continuous",
-      colorbarTitle: "Mutational Intolerance",
+      colorbarTitle: "Tolerance",
       lowColor: COLOR_GREY,
       midColor: COLOR_ORNG,
       highColor: COLOR_RED,

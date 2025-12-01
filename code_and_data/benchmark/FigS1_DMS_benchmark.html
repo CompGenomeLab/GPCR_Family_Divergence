@@ -70,9 +70,8 @@ const ADRB2_pe_tsv_path = "data/ADRB2_potency_efficacy.tsv";
 const MC4R_sensitivity_tsv_path = "data/MC4R_sensitivity.tsv";
 const MC4R_scatter_hrh2_path    = CLASSA_LABELS;
 
-const GPR68_delta_tsv_path   = "data/GPR68_sensitivity_delta.tsv";
-const GPR68_scatter_hrh2_path= CLASSA_LABELS;
-const GPR68_value_col_ph55   = "pH5.5";
+const GPR68_normalized_tsv_path = "data/GPR68_normalized_activation_scores.tsv";
+const GPR68_scatter_hrh2_path   = CLASSA_LABELS;
 
 const V2R_expression_path = "data/V2R_expression.tsv";
 const V2R_scatter_hrh2_path = CLASSA_LABELS;
@@ -99,13 +98,13 @@ function normalizeToZeroOne(values) {
 const COLOR_GREY="#D3D3D3", COLOR_RED="#D62728", COLOR_ORNG="#FFA500", 
       COLOR_BLUE="#4E79A7", COLOR_CHAR="#333333";
 
-// Layout for 5 rows × 2 columns (10 panels total)
+// Layout for up to 4 rows × 3 columns (10 panels currently used, 3 per row max)
 const PANEL_WIDTH = 480, PANEL_HEIGHT = 360;
 const PANEL_MARGIN = {top: 50, right: 20, bottom: 50, left: 60};
 const PANEL_SPACING_X = 80, PANEL_SPACING_Y = 50;
 
-const TOTAL_WIDTH = 2 * PANEL_WIDTH + PANEL_SPACING_X + PANEL_MARGIN.left + PANEL_MARGIN.right;
-const TOTAL_HEIGHT = 5 * PANEL_HEIGHT + 4 * PANEL_SPACING_Y + PANEL_MARGIN.top + PANEL_MARGIN.bottom;
+const TOTAL_WIDTH = 3 * PANEL_WIDTH + 2 * PANEL_SPACING_X + PANEL_MARGIN.left + PANEL_MARGIN.right;
+const TOTAL_HEIGHT = 4 * PANEL_HEIGHT + 3 * PANEL_SPACING_Y + PANEL_MARGIN.top + PANEL_MARGIN.bottom;
 
 /* ========================= Utilities ========================= */
 function firstInt(s){ const m=String(s??"").match(/\d+/); return m?parseInt(m[0],10):null; }
@@ -827,7 +826,7 @@ async function preparePanel_e() {
   merged.forEach(r => { if (r.colorValue == null) r.colorValue = minSens; });
 
   return {
-    title: "Howard et al.|MC4R Deep Mutational Scanning",
+    title: "C. J. Howard et al.|MC4R Deep Mutational Scanning",
     data: merged,
     colorSpec: {
       type: "continuous",
@@ -840,18 +839,18 @@ async function preparePanel_e() {
   };
 }
 
-// (i) GPR68 pH 5.5
-async function preparePanel_i() {
-  const [delta, map, hrh2] = await Promise.all([
-    readTSV(GPR68_delta_tsv_path),
+// (f) GPR68 Deep Mutational Scanning - Matthew K. Howard
+async function preparePanel_gpr68() {
+  const [gpr, map, hrh2] = await Promise.all([
+    readTSV(GPR68_normalized_tsv_path),
     readTSV(CONSOLIDATED_mapping_tsv_path),
     readTSV(GPR68_scatter_hrh2_path)
   ]);
 
-  const dRows = delta.map(r => ({
+  const gprRows = gpr.map(r => ({
     gpr68_pos: firstInt(r.pos),
-    Sensitivity: toNum(r[GPR68_value_col_ph55])
-  })).filter(r => r.gpr68_pos != null && r.Sensitivity != null);
+    activation: toNum(r.mean_adjusted_activation)
+  })).filter(r => r.gpr68_pos != null && r.activation != null);
 
   const mapRows = map.map(r => ({
     hrh2_int: firstInt(r.HRH2_resNum),
@@ -865,39 +864,39 @@ async function preparePanel_i() {
   })).filter(r => r.hrh2_int && r.entropy != null && r.conservation != null);
 
   const merged = [];
-  for (const d of dRows) {
-    const m = mapRows.find(k => k.gpr68_int === d.gpr68_pos);
+  for (const g of gprRows) {
+    const m = mapRows.find(k => k.gpr68_int === g.gpr68_pos);
     if (!m) continue;
-    
-    const e = hrh2Rows.find(h => h.hrh2_int === m.hrh2_int);
-    if (!e) continue;
-    
-    merged.push({ 
-      entropy: e.entropy, 
-      conservation: e.conservation, 
-      colorValue: d.Sensitivity, 
-      hrh2_int: e.hrh2_int 
+
+    const h = hrh2Rows.find(h => h.hrh2_int === m.hrh2_int);
+    if (!h) continue;
+
+    merged.push({
+      entropy: h.entropy,
+      conservation: h.conservation,
+      colorValue: g.activation,
+      hrh2_int: h.hrh2_int
     });
   }
 
-  const minS = Math.min(...merged.map(r => r.colorValue ?? Infinity));
-  merged.forEach(r => { if (r.colorValue == null) r.colorValue = minS; });
+  const minAct = Math.min(...merged.map(r => r.colorValue ?? Infinity));
+  merged.forEach(r => { if (r.colorValue == null) r.colorValue = minAct; });
 
   return {
-    title: "Howard et al.|GPR68 Deep Mutational Scanning",
+    title: "M. K. Howard et al.|GPR68 Deep Mutational Scanning",
     data: merged,
     colorSpec: {
       type: "continuous",
       colorbarTitle: "Tolerance",
-      lowColor: COLOR_RED,
+      lowColor: COLOR_GREY,
       midColor: COLOR_ORNG,
-      highColor: COLOR_GREY,
-      midPosition: 0.3
+      highColor: COLOR_RED,
+      midPosition: 0.7
     }
   };
 }
 
-// (k) V2R Expression
+// (k) V2R DMS Surface Expression
 async function preparePanel_k() {
   const [expr, map, hrh2] = await Promise.all([
     readTSV(V2R_expression_path),
@@ -947,11 +946,11 @@ async function preparePanel_k() {
   merged.forEach(r => { if (r.colorValue == null) r.colorValue = minScore; });
 
   return {
-    title: "Mighell et al.|V2R Expression",
+    title: "Mighell et al.|V2R DMS Surface Expression",
     data: merged,
     colorSpec: {
       type: "continuous",
-      colorbarTitle: "Expression",
+      colorbarTitle: "Tolerance",
       lowColor: COLOR_RED,
       midColor: COLOR_ORNG,
       highColor: COLOR_GREY,
@@ -1008,7 +1007,7 @@ async function preparePanel_o() {
     data: merged,
     colorSpec: {
       type: "continuous",
-      colorbarTitle: "Avg Emax",
+      colorbarTitle: "Tolerance",
       lowColor: COLOR_RED,
       midColor: COLOR_ORNG,
       highColor: COLOR_GREY,
@@ -1065,7 +1064,7 @@ async function preparePanel_p() {
     data: merged,
     colorSpec: {
       type: "continuous",
-      colorbarTitle: "Beta-Arrestin",
+      colorbarTitle: "Tolerance",
       lowColor: COLOR_RED,
       midColor: COLOR_ORNG,
       highColor: COLOR_GREY,
@@ -1238,7 +1237,7 @@ async function preparePanel_ec100_normalized() {
   merged.forEach(r => { if (r.colorValue == null) r.colorValue = minVal; });
 
   return {
-    title: "Heydenreich et al.|B2AR EC50 Normalized Amplitude",
+    title: "Heydenreich et al.|B2AR Normalized Amplitude (Efficacy)",
     data: merged,
     colorSpec: {
       type: "continuous",
@@ -1360,7 +1359,7 @@ async function preparePanel_ec100_logEC50_normalized() {
   merged.forEach(r => { if (r.colorValue == null) r.colorValue = minVal; });
 
   return {
-    title: "Heydenreich et al.|B2AR EC100 Normalized logEC50",
+    title: "Heydenreich et al.|B2AR Normalized logEC50 (Potency)",
     data: merged,
     colorSpec: {
       type: "continuous",
@@ -1712,11 +1711,11 @@ async function renderAllPanels() {
   try {
     await buildGpcrdbMap();
 
-    // Order: d, e, i, k, o, p, g, h, k2, i2
-    const [panelD, panelE, panelI, panelK, panelO, panelP, panelG, panelH, panelK2, panelI2] = await Promise.all([
+    // Order: d, e, GPR68, k, o, p, g, h, k2, i2
+    const [panelD, panelE, panelGPR68, panelK, panelO, panelP, panelG, panelH, panelK2, panelI2] = await Promise.all([
       preparePanel_d(),
       preparePanel_e(),
-      preparePanel_i(),
+      preparePanel_gpr68(),
       preparePanel_k(),
       preparePanel_o(),
       preparePanel_p(),
@@ -1732,21 +1731,21 @@ async function renderAllPanels() {
       .attr("height", TOTAL_HEIGHT)
       .attr("id", "mainSvg");
 
-    // 2 columns × 5 rows layout (10 panels)
+    // 3 columns × up to 4 rows layout (10 panels)
     const positions = [
       { x: 0, y: 0 }, // a (d - B2AR Tolerance)
       { x: PANEL_WIDTH + PANEL_SPACING_X, y: 0 }, // b (e - MC4R)
-      { x: 0, y: PANEL_HEIGHT + PANEL_SPACING_Y }, // c (i - GPR68)
-      { x: PANEL_WIDTH + PANEL_SPACING_X, y: PANEL_HEIGHT + PANEL_SPACING_Y }, // d (k - V2R)
-      { x: 0, y: 2 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // e (o - B2AR G protein)
-      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 2 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // f (p - Beta-Arrestin)
-      { x: 0, y: 3 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // g (g - Alanine Potency)
-      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 3 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // h (h - Alanine Efficacy)
-      { x: 0, y: 4 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // i (k2 - EC100 Normalized logEC50/Potency)
-      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 4 * (PANEL_HEIGHT + PANEL_SPACING_Y) } // j (i2 - EC100 Normalized Amplitude/Efficacy)
+      { x: 2 * (PANEL_WIDTH + PANEL_SPACING_X), y: 0 }, // c (GPR68 - Matthew K. Howard)
+      { x: 0, y: PANEL_HEIGHT + PANEL_SPACING_Y }, // d (k - V2R)
+      { x: PANEL_WIDTH + PANEL_SPACING_X, y: PANEL_HEIGHT + PANEL_SPACING_Y }, // e (o - B2AR G protein)
+      { x: 2 * (PANEL_WIDTH + PANEL_SPACING_X), y: PANEL_HEIGHT + PANEL_SPACING_Y }, // f (p - Beta-Arrestin)
+      { x: 0, y: 2 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // g (g - Alanine Potency)
+      { x: PANEL_WIDTH + PANEL_SPACING_X, y: 2 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // h (h - Alanine Efficacy)
+      { x: 2 * (PANEL_WIDTH + PANEL_SPACING_X), y: 2 * (PANEL_HEIGHT + PANEL_SPACING_Y) }, // i (k2 - EC100 Normalized logEC50/Potency)
+      { x: 0, y: 3 * (PANEL_HEIGHT + PANEL_SPACING_Y) } // j (i2 - EC100 Normalized Amplitude/Efficacy)
     ];
 
-    const scatterPanels = [panelD, panelE, panelI, panelK, panelO, panelP, panelG, panelH, panelK2, panelI2];
+    const scatterPanels = [panelD, panelE, panelGPR68, panelK, panelO, panelP, panelG, panelH, panelK2, panelI2];
     scatterPanels.forEach((panel, i) => {
       const letter = String.fromCharCode(97 + i); // 97 is 'a'
       drawPanel({
