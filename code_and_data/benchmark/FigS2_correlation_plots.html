@@ -55,6 +55,7 @@
   <div class="controls">
     <button class="btn" onclick="downloadSVG()">Download Combined SVG</button>
     <button class="btn" onclick="downloadPNG()">Download PNG</button>
+    <button class="btn" onclick="downloadTIFF()">Download TIFF</button>
   </div>
 
   <div id="mainContainer">
@@ -1221,6 +1222,114 @@ function downloadPNG() {
   }).catch(err => {
     console.error("Error generating PNG:", err);
     alert("Error generating PNG. See console for details.");
+  });
+}
+
+/* ========================= TIFF Download ========================= */
+function downloadTIFF() {
+  const container = document.getElementById("mainContainer");
+  
+  html2canvas(container, {
+    scale: 2,
+    backgroundColor: '#ffffff',
+    logging: false,
+    useCORS: true
+  }).then(canvas => {
+    const containerRect = container.getBoundingClientRect();
+    const svgElement = document.getElementById("mainSvg");
+    const svgRect = svgElement.getBoundingClientRect();
+
+    // html2canvas scale factor
+    const scaleFactor = canvas.width / containerRect.width;
+
+    // Height of one plot row in pixels (matches SVG layout)
+    const rowHeightPx = (PANEL_HEIGHT + PANEL_SPACING_Y) * scaleFactor;
+
+    // SVG top relative to container in canvas pixels
+    const svgTopInContainer = (svgRect.top - containerRect.top) * scaleFactor;
+
+    // Split after table + first 3 rows of plots
+    let splitY = svgTopInContainer + 3 * rowHeightPx;
+    splitY = Math.max(0, Math.min(splitY, canvas.height)); // clamp
+
+    // First image: table + first 3 rows
+    const canvasTop = document.createElement("canvas");
+    canvasTop.width = canvas.width;
+    canvasTop.height = splitY;
+    const ctxTop = canvasTop.getContext("2d");
+    ctxTop.drawImage(
+      canvas,
+      0, 0, canvas.width, splitY,       // source rect
+      0, 0, canvasTop.width, splitY     // dest rect
+    );
+
+    const remainingHeight = canvas.height - splitY;
+
+    if (remainingHeight > 0) {
+      // Second image: remaining rows
+      const canvasBottom = document.createElement("canvas");
+      canvasBottom.width = canvas.width;
+      canvasBottom.height = remainingHeight;
+      const ctxBottom = canvasBottom.getContext("2d");
+      ctxBottom.drawImage(
+        canvas,
+        0, splitY, canvas.width, remainingHeight,  // source rect
+        0, 0, canvasBottom.width, remainingHeight  // dest rect
+      );
+
+      // Download top image first, then bottom image
+      canvasTop.toBlob(function(blobTop) {
+        if (!blobTop) {
+          console.error("TIFF export is not supported by this browser.");
+          alert("TIFF export is not supported by this browser.");
+          return;
+        }
+        const urlTop = URL.createObjectURL(blobTop);
+        const linkTop = document.createElement("a");
+        linkTop.href = urlTop;
+        linkTop.download = "gpcr_correlation_analysis_top.tif";
+        document.body.appendChild(linkTop);
+        linkTop.click();
+        document.body.removeChild(linkTop);
+        URL.revokeObjectURL(urlTop);
+
+        canvasBottom.toBlob(function(blobBottom) {
+          if (!blobBottom) {
+            console.error("TIFF export is not supported by this browser.");
+            alert("TIFF export is not supported by this browser.");
+            return;
+          }
+          const urlBottom = URL.createObjectURL(blobBottom);
+          const linkBottom = document.createElement("a");
+          linkBottom.href = urlBottom;
+          linkBottom.download = "gpcr_correlation_analysis_bottom.tif";
+          document.body.appendChild(linkBottom);
+          linkBottom.click();
+          document.body.removeChild(linkBottom);
+          URL.revokeObjectURL(urlBottom);
+        }, "image/tiff");
+      }, "image/tiff");
+    } else {
+      // Fallback: if there are fewer than 3 rows, just download one image
+      canvas.toBlob(function(blob) {
+        if (!blob) {
+          console.error("TIFF export is not supported by this browser.");
+          alert("TIFF export is not supported by this browser.");
+          return;
+        }
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "gpcr_correlation_analysis.tif";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+      }, "image/tiff");
+    }
+  }).catch(err => {
+    console.error("Error generating TIFF:", err);
+    alert("Error generating TIFF. See console for details.");
   });
 }
 

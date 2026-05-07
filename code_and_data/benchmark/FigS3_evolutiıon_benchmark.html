@@ -47,6 +47,7 @@
   <div class="controls">
     <button class="btn" onclick="downloadSVG()">Download SVG</button>
     <button class="btn" onclick="downloadPNG()">Download PNG</button>
+    <button class="btn" onclick="downloadTIFF()">Download TIFF</button>
   </div>
 
   <div id="svgContainer"></div>
@@ -481,6 +482,37 @@ function downloadPNG() {
   }).catch(err => {
     console.error("Error generating PNG:", err);
     alert("Error generating PNG. See console for details.");
+  });
+}
+
+/* ========================= TIFF Download ========================= */
+function downloadTIFF() {
+  const container = document.getElementById("svgContainer");
+  
+  html2canvas(container, {
+    scale: 2, // Higher resolution
+    backgroundColor: '#ffffff',
+    logging: false,
+    useCORS: true
+  }).then(canvas => {
+    canvas.toBlob(function(blob) {
+      if (!blob) {
+        console.error("TIFF export is not supported by this browser.");
+        alert("TIFF export is not supported by this browser.");
+        return;
+      }
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "opsin_ligand_combined.tif";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }, "image/tiff");
+  }).catch(err => {
+    console.error("Error generating TIFF:", err);
+    alert("Error generating TIFF. See console for details.");
   });
 }
 
